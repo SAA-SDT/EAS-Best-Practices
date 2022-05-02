@@ -6,7 +6,7 @@ More to introduction to come!
 
 ## Table of Contents
 
-### [Dates] (dates)
+### [Dates](/dates.md)
 - Uncertain dates
 - Unknown or ongoing date ranges
 
