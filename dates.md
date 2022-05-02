@@ -1,8 +1,8 @@
 # Dates
 
-## Uncertain dates
 EAC-CPF
 {: .label }
+## Uncertain dates
 ### Context
 Encoding uncertain dates in `<date>`, `<toDate>`, `<fromDate>`
 ### Description
