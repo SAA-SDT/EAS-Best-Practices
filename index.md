@@ -6,7 +6,7 @@ More to introduction to come!
 
 ## Table of Contents
 
-### Dates
+### [Dates] (dates)
 - Uncertain dates
 - Unknown or ongoing date ranges
 
