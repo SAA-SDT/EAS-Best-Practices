@@ -1,8 +1,14 @@
+---
+layout: default
+title: Dates
+nav_order: 2
+---
+
 # Dates
 
-EAC-CPF
-{: .label }
 ## Uncertain dates
+### Schema
+EAC-CPF
 ### Context
 Encoding uncertain dates in `<date>`, `<toDate>`, `<fromDate>`
 ### Description
@@ -29,8 +35,8 @@ EAC-CPF will also enable the use of the Extended Date/Time Format (EDTF), which 
 </dateRange>
 ```
 ## Unknown or ongoing date ranges
+### Schema
 EAC-CPF
-{: .label }
 ### Context
 Encoding unknown or ongoing dates. 
 ### Description
