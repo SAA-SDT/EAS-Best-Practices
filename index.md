@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "EAS BPG uses Just the Docs, a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+permalink: /
+---
+
 # Encoded Archival Standards: Best Practice Guide
 
 following ISAAR(CPF), not RiC-CM (yet)
