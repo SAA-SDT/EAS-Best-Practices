@@ -33,9 +33,12 @@ All components have in common that values can be expressed as literals. It is, h
 3. [Relation to a function](tbd)
 
 ### Examples 
-[@targetType](https://eac.staatsbibliothek-berlin.de/schema/taglibrary/cpfTagLibrary2021Draft_EN.html#attr-targetType){: .btn .btn-outline }
-Use to identify the type of related entity from value list: agent, corporateBody, family, function, person, resource
+[@targetType](https://eac.staatsbibliothek-berlin.de/schema/taglibrary/cpfTagLibrary2021Draft_EN.html#attr-targetType)
+{: .btn .btn-outline }
 (the link will need to be updated)
+
+Use to identify the type of related entity from value list: _agent, corporateBody, family, function, person, resource_
+
 ```xml
 <relation>
 <targetEntity targetType="resource">
