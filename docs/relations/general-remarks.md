@@ -1,3 +1,10 @@
+---
+layout: default
+title: General remarks on relation encoding
+parent: Relations
+nav_order: 1
+---
+
 # General remarks on relation encoding
 ### Schema
 EAC-CPF
@@ -17,11 +24,6 @@ All components have in common that values can be expressed as literals. It is, h
 * Name of the authority / vocabulary source (literal)
 * URI of the authority / vocabulary source (resource/URI)
 * URI of the value (resource/URI)
-
-### Relation types
-1. [Relation to a resource](tbd)
-2. [Relation to a CPF entity](tbd)
-3. [Relation to a function](tbd)
 
 ### Examples 
 [@targetType](https://eac.staatsbibliothek-berlin.de/schema/taglibrary/cpfTagLibrary2021Draft_EN.html#attr-targetType)
