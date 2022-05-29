@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Relations
+title: Names
 nav_order: 3
 has_children: true
 ---
