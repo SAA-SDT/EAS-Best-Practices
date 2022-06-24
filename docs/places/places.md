@@ -1,0 +1,9 @@
+---
+layout: default
+title: Places and geographic features
+nav_order: 7
+has_children: true
+permalink: /docs/places
+---
+
+# Places and geographic features
