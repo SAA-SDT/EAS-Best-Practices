@@ -15,24 +15,22 @@ nav_order: 2
 {:toc}
 
 ---
-Use cases include:
-* Different forms of the same name
-* Qualify authorized and alternative names
-* Reflect parallel usage according to cataloging rules in North America
-* Qualify a name as preferred name for display purposes
----
+
 ## Different forms of the same name
-### Schema
+**Schema**
 EAC-CPF
-### Context
+
+**Context**
 Encoding multiple names for different forms of the same name.
-### Description
+
+**Description**
 Bundle multiple elements `<nameEntry>` within an element `<nameEntrySet>` within `<identity>` to enter different forms of the same name, e.g. official and alternative forms of a name, translations, transliterations, abbreviations, colloquial names etc.
 
 Add attributes in `<nameEntry>`  to define the names language, status, designation for display or other properties. 
 
 Use the element `<useDates>` within the element `<nameEntrySet>` to indicate the dates all names were used and use the same element with `<nameEntry>` to indicate the date one of the names was used.
-### Example
+
+**Example**
 ```xml
 <nameEntrySet>
   <nameEntry status="authorized">
