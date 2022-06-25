@@ -6,17 +6,22 @@ nav_order: 1
 ---
 
 # Single name
-### Schema
+**Schema:**
 EAC-CPF
-### Context
-Encoding a single name, if necessary with multiple name parts.
-### Description
-Use a single `<nameEntry>` element within `<identity>` to enter a single name for an entity. Add attributes to define the names language, status, designation for display or other properties. 
-Use the element `<part>` to distinguish between parts of a name, if necessary.
-Use the element `<useDates>` to indicate the dates the name was used.
-Use several elements `<nameEntry>` within <identity> when an entity used different names over time.
 
-### Examples
+**Context:**
+Encoding a single name, if necessary with multiple name parts.
+
+**Description:**
+Use a single `<nameEntry>` element within `<identity>` to enter a single name for an entity. Add attributes to define the names language, status, designation for display or other properties. 
+
+Use the element `<part>` to distinguish between parts of a name, if necessary.
+
+Use the element `<useDates>` to indicate the dates the name was used.
+
+Use several elements `<nameEntry>` within `<identity>` when an entity used different names over time.
+
+**Examples**
 ```xml
 <nameEntry languageOfElement="de" preferredForm="true" status="authorized">
   <part localType="surname">Arendt</part>
