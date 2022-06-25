@@ -7,7 +7,7 @@ nav_order: 1
 
 # Single name
 ### Schema
-EAC-CFP
+EAC-CPF
 ### Context
 Encoding a single name, if necessary with multiple name parts.
 ### Description
@@ -17,11 +17,6 @@ Use the element `<useDates>` to indicate the dates the name was used.
 Use several elements `<nameEntry>` within <identity> when an entity used different names over time.
 
 ### Examples
-[nameEntry](https://eac.staatsbibliothek-berlin.de/schema/taglibrary/cpfTagLibrary2021Draft_EN.html#elem-nameEntry)
-{: .btn .btn-outline }
-(the link will need to be updated)
-
-
 ```xml
 <nameEntry languageOfElement="de" preferredForm="true" status="authorized">
   <part localType="surname">Arendt</part>
