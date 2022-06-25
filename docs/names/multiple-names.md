@@ -17,13 +17,13 @@ nav_order: 2
 ---
 
 ## Different forms of the same name
-**Schema**
+**Schema:**
 EAC-CPF
 
-**Context**
+**Context:**
 Encoding multiple names for different forms of the same name.
 
-**Description**
+**Description:**
 Bundle multiple elements `<nameEntry>` within an element `<nameEntrySet>` within `<identity>` to enter different forms of the same name, e.g. official and alternative forms of a name, translations, transliterations, abbreviations, colloquial names etc.
 
 Add attributes in `<nameEntry>`  to define the names language, status, designation for display or other properties. 
@@ -50,13 +50,16 @@ Use the element `<useDates>` within the element `<nameEntrySet>` to indicate the
 ```
 ---
 ## Qualify authorized and alternative names
-### Schema
+**Schema:**
 EAC-CPF
-### Context
+
+**Context:**
 Qualify a name entry as authorized or alternative name of an entity according to ISAAR(CPF) 5.1.2.
-### Description
+
+**Description:**
 Use the attribute @status for the element `<nameEntry>` and select one of the given values "authorized" or "alternative" to indicate if a name is authorized or alternative. 
-### Example
+
+**Example**
 ```xml
 <nameEntrySet>
   <nameEntry status="authorized">
@@ -70,15 +73,18 @@ Use the attribute @status for the element `<nameEntry>` and select one of the gi
 ```
 ---
 ## Reflect parallel usage according to cataloging rules in North America
-### Schema
+**Schema:**
 EAC-CPF
-### Context
+
+**Context:**
 Qualify a set of name entries as parallel names according to cataloguing rules in North America.
-### Description
+
+**Description:**
 Use the attribute `@localType` with the value “parallel” within `<nameEntrySet>` to reflect the usage of parallel names in North America. 
 
 Use the attribute `@localType` in `<nameEntry>` to specify the type of parallel name used, e.g. former, translation, abbreviation etc.
-### Example
+
+**Example**
 ```xml
 <nameEntrySet localType="parallel">
   <nameEntry languageOfElement="de" preferredForm="true" status="authorized" localType="native">
@@ -97,13 +103,16 @@ Use the attribute `@localType` in `<nameEntry>` to specify the type of parallel 
 ```
 ---
 ## Qualify a name as preferred name for display purposes
-### Schema
+**Schema:**
 EAC-CPF
-### Context
+
+**Context:**
 Qualify a name entry as preferred name for display purposes.
-### Description
+
+**Description:**
 An entity with multiple names needs one name as preferred name for display purposes. If there are multiple equal names over time, i.e. multiple `<nameEntry>` elements as siblings and child elements of `<identity>`, multiple preferred names are possible. If there are multiple forms of a name, i.e. multiple `<nameEntry>` elements within `<nameEntrySet>`, only one of the names should be declared as the preferred name for display purposes.
-### Example
+
+**Example**
 ```xml
 <nameEntrySet localType="parallel">
   <nameEntry languageOfElement="de" preferredForm="true" status="authorized" localType="native">
