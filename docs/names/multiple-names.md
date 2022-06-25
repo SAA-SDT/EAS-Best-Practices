@@ -6,6 +6,22 @@ nav_order: 2
 ---
 
 # Multiple names
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+Use cases include:
+* Different forms of the same name
+* Qualify authorized and alternative names
+* Reflect parallel usage according to cataloging rules in North America
+* Qualify a name as preferred name for display purposes
+---
+## Different forms of the same name
 ### Schema
 EAC-CPF
 ### Context
@@ -34,6 +50,7 @@ Use the element `<useDates>` within the element `<nameEntrySet>` to indicate the
   </nameEntry>
 </nameEntrySet>
 ```
+---
 ## Qualify authorized and alternative names
 ### Schema
 EAC-CPF
@@ -53,7 +70,7 @@ Use the attribute @status for the element `<nameEntry>` and select one of the gi
   </nameEntry>
 </nameEntrySet>
 ```
-
+---
 ## Reflect parallel usage according to cataloging rules in North America
 ### Schema
 EAC-CPF
@@ -80,7 +97,7 @@ Use the attribute `@localType` in `<nameEntry>` to specify the type of parallel 
   </nameEntry>
 </nameEntrySet>
 ```
-
+---
 ## Qualify a name as preferred name for display purposes
 ### Schema
 EAC-CPF
