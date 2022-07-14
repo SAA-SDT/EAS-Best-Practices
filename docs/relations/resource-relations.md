@@ -7,7 +7,7 @@ nav_order: 2
 
 # Relation to a Resource
 
-<img src="https://github.com/SAA-SDT/EAS-Best-Practices/raw/main/images/relation-resource.png" width="450"/>
+<img src="https://github.com/SAA-SDT/EAS-Best-Practices/raw/main/images/relation-resource.png" width="350"/>
 
 **Schema:**
 EAC-CPF
