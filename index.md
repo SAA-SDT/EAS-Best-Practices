@@ -15,9 +15,6 @@ The Best Practice Guide will complement the existing EAC-CPF and EAD Tag Librari
 EAC-CPF is based on the International Standard Archival Authority Record for Corporate Bodies, Persons and Families (ISAAR-CPF). Revisions to the EAD and EAC-CPF standards are being undertaken by the Technical Subcommittee on Encoded Archival Standards (TS-EAS) based on the requirements of the Society of American Archivists’ standards maintenance schedule and policies, and are not tied to ongoing development of standards by the ICA, though keeping close connections to the ICA Experts Group on Archival Description as a related standards body. For this reason, the EAC-CPF 2.0 continues to be based on ISAAR(CPF) rather than the draft versions of Records in Contexts. We anticipate that future versions of EAC-CPF and other standards maintained by TS-EAS will take the Records in Contexts - Conceptual Model into account once it is finalized and approved
  
 TS-EAS welcomes contributions and feedback from users of the standards it manages. 
-
-Reporting an issue via SAA: [https://www2.archivists.org/standards/TS-EAS-report-an-issue](https://www2.archivists.org/standards/TS-EAS-report-an-issue)
-
-TS-EAS on GitHub: [https://github.com/SAA-SDT](https://github.com/SAA-SDT)
-
-Mailing list: [EAD@LISTSERV.LOC.GOV](mailto:EAD@LISTSERV.LOC.GOV)
+* Reporting an issue via SAA: [https://www2.archivists.org/standards/TS-EAS-report-an-issue](https://www2.archivists.org/standards/TS-EAS-report-an-issue)
+* TS-EAS on GitHub: [https://github.com/SAA-SDT](https://github.com/SAA-SDT)
+* Mailing list: [EAD@LISTSERV.LOC.GOV](mailto:EAD@LISTSERV.LOC.GOV)
