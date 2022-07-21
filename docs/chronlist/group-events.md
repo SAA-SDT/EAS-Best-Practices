@@ -35,7 +35,7 @@ A number of attributes are available to qualify data such as language, source re
       <chronItemSet>
         <event>Arrive in Mombasa, Sir Percy Girouard invites expedition party to travel by private rail to Nairobi</event>
         <place valueURI="http://vocab.getty.edu/tgn/7001115">Mombasa</place>
-        <event>In Nairobi the party reconnects with old acquaintances and purchases supplies for the journey. /event>
+        <event>In Nairobi the party reconnects with old acquaintances and purchases supplies for the journey. </event>
         <place valueURI ="http://vocab.getty.edu/tgn/7001116">Nairobi</place>
       </chronItemSet>
   </chronItem>
