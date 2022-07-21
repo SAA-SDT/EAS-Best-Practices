@@ -20,7 +20,7 @@ The @valueURI, @vocabularySource and @vocabularySourceURI attributes are availab
 
 The attributes can be used individually, or combined to provide details about the source of the contents of an element, when an external vocabulary is being used.
 
-**Examples**
+**Example**
 ```xml
 <place>
   <placeName valueURI="https://d-nb.info/gnd/4005728-8" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">Berlin</placeName>		
