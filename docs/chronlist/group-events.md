@@ -22,5 +22,34 @@ A number of attributes are available to qualify data such as language, source re
 
 `<chronItem>` and `<chronItemSet>` are subelements of `<chronList>`, `<bioghist>`, while `<description>`, `<event>`, `<place>` and date elements are subelements of `<chronItem>` and `<chronItemSet>`. Refer to `<place>` for attributes.
 
+**Example**
+```xml
+<chronList>
+  <chronItem>
+    <date standardDate="1909-08-31">August 31, 1909</date>
+    <event>The party departs Naples, Italy via SS Adolph Woermann, where they are introduced to Sir Percy Girouard, the new British East Africa governor</event>
+    <place valueURI="http://vocab.getty.edu/tgn/7004474">Naples</placeEntry>
+  </chronItem>
+  <chronItem>
+    <date standardDate="1909-09">September 1909</date>
+      <chronItemSet>
+        <event>Arrive in Mombasa, Sir Percy Girouard invites expedition party to travel by private rail to Nairobi</event>
+        <place valueURI="http://vocab.getty.edu/tgn/7001115">Mombasa</place>
+        <event>In Nairobi the party reconnects with old acquaintances and purchases supplies for the journey. /event>
+        <place valueURI ="http://vocab.getty.edu/tgn/7001116">Nairobi</place>
+      </chronItemSet>
+  </chronItem>
+  <chronItem>
+    <date standardDate="1909-10">October 1909</date>
+      <chronItemSet maintenanceEventReference="maintenancevent1" sourceReference="source1">
+        <event>Spent two weeks hunting rhino and lion, in the Lower Tana River Valley, Delia Akeley procures a small monkey and names her J.T. Jr.</event>
+        <place valueURI ="http://vocab.getty.edu/tgn/7593796">Tana River</place>
+        <event>Hunting elephants in Mt. Kenya</event>
+        <place valueURI ="http://vocab.getty.edu/tgn/1105240">Kirinyaga</place>
+    </chronItemSet>
+  </chronItem> 
+</chronList>
+```
+
 _Field work and expeditions in the early 20th century often involved harmful acts inflicted upon animals and communities for scientific research. While these practices are not conducted on large mammals today, historical events below are presented as they occurred or appear in evidentiary documentation._
 
