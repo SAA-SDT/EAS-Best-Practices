@@ -4,6 +4,7 @@ title: Home
 nav_order: 1
 description: "EAS BPG is a resource that describes and provides explanations and examples of complex encodings and concepts in Encoded Archival Context - Corporate Bodies, Persons and Families (EAC-CPF) and Encoded Archival Description (EAD)"
 permalink: /
+has_toc: true
 ---
 
 # Encoded Archival Standards: Best Practice Guide
