@@ -2,13 +2,13 @@
 layout: default
 title: Home
 nav_order: 1
-description: "EAS BPG uses Just the Docs, a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "EAS BPG is a resource that describes and provides explanations and examples of complex encodings and concepts in Encoded Archival Context - Corporate Bodies, Persons and Families (EAC-CPF) and Encoded Archival Description (EAD)"
 permalink: /
 ---
 
 # Encoded Archival Standards: Best Practice Guide
 
-The Encoded Archival Standards: Best Practice Guide is a resource that describes and provides explanations and examples of complex encodings and concepts in Encoded Archival Context - Corporate Bodies, Persons and Families (EAC-CPF) and Encoded Archival Description (EAD). Created and maintained by the Society of American Archivists, Technical Subcommittee on Encoded Archival Standards (TS-EAS), the guideIt is intended to be a growing resource that will be built on and developed over time based on user community feedback and as use cases emerge.
+The Encoded Archival Standards: Best Practice Guide is a resource that describes and provides explanations and examples of complex encodings and concepts in Encoded Archival Context - Corporate Bodies, Persons and Families (EAC-CPF) and Encoded Archival Description (EAD). Created and maintained by the Society of American Archivists, Technical Subcommittee on Encoded Archival Standards (TS-EAS), the guide is intended to be a growing resource that will be built on and developed over time based on user community feedback and as use cases emerge.
  
 The Best Practice Guide will complement the existing EAC-CPF and EAD Tag Libraries. While the Tag Libraries describe each element and attribute individually, the Best Practice Guide provides more in-depth explanations of sets of elements and attributes being used together to fulfill a variety of use cases. These are accompanied by best practice examples for different use cases, where possible based on real usage, to clarify the encoding. For detailed information about individual elements and attributes, see the EAC-CPF Tag Library[url] or the EAD Tag Library[url].
 
