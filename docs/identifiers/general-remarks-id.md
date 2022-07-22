@@ -21,4 +21,4 @@ Or to refer to
 * other records of the same resource or entity as described in the EAS instance within the element `<otherRecordId>`, cf. [Record identifiers](record-id.md)
 * the agency, responsible for creation, maintenance or dissemination of the EAS instance within the element `<agencyCode>`, c.f. [Agency Codes](agency-codes.md)
 * the entity, thus the person, family or corporate body, described the present EAC-CPF instance within the element `<identityId>`, c.f. [Entity Identifiers](entity-id.md)
-* the materials being described in an EAD instance within the element `<unidid>`, c.f. ID of the Unit (coming soon)
+* the materials being described in an EAD instance within the element `<unitid>`, c.f. ID of the Unit (coming soon)
