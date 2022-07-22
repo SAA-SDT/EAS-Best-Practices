@@ -33,17 +33,13 @@ Elements such as `<biogHist>`, `<structureOrGenealogy>`, and `<generalContext>` 
                 <!-- [...] -->
                 <list listType="unordered">
                     <head>Legal and academic career</head>
-                    <item>Clerkship for Judge Edmund L. Palmieri, U.S. District Court for the Southern District 
-                    of New York</item>
-                    <item>Research associate and associate director of the Columbia Law School Project on 
-                    International Procedure</item>
+                    <item>Clerkship for Judge Edmund L. Palmieri, U.S. District Court for the Southern District of New York</item>
+                    <item>Research associate and associate director of the Columbia Law School Project on International Procedure</item>
                     <item>Professor at Rutgers Law School</item>
                     <item>Co-founder of the Women's Rights Law Reporter</item>
                     <item>Professor at Columbia Law School</item>
-                    <item>Fellow of the Center for Advanced Study in the Behavioral Sciences at Stanford 
-                    University</item>
-                    <item>Co-founder of the Women's Rights Project at the American Civil Liberties 
-                    Union</item>
+                    <item>Fellow of the Center for Advanced Study in the Behavioral Sciences at Stanford University</item>
+                    <item>Co-founder of the Women's Rights Project at the American Civil Liberties Union</item>
                     <item>Judge on the District of Columbia Circuit of the U.S. Court of Appeals</item>
                     <item>Judge on the U.S. Supreme Court</item>
                 </list>
@@ -67,7 +63,7 @@ Elements such as `<biogHist>`, `<structureOrGenealogy>`, and `<generalContext>` 
                     <head>Principal organs</head>
                     <item>The General Assembly</item>
                     <item>The Security Council</item>
-                    <item>The Secretariat with th Secretary-General</item>
+                    <item>The Secretariat with the Secretary-General</item>
                     <item>The Economic and Social Council</item>
                     <item>The International Council of Justice</item>
                     <item>The Trusteeship Council</item>
