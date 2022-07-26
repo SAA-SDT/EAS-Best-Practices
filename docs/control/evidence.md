@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Sources of evidence
@@ -29,4 +28,21 @@ Add the attribute @id in `<source>` in order to identify this particular element
 
 Information given in the elements `<source>` and `<maintenanceEvent>`, cf. [Maintenance agency, history and status](maintenance.md), lay the foundation to the description of an assertion to the EAC-CPF description. 
 
-**Examples** 
+**Example** 
+```xml
+<eac>
+  <control maintenanceStatus="revised">[...]
+    <sources>
+      <source id=”SourceWiki”>
+        <reference href="https://de.wikipedia.org/wiki/Gustav_IV._Adolf_(Schweden)"> Wikipedia</reference>
+      </source>
+      <source>
+        <reference href="https://sok.riksarkivet.se/sbl/Presentation.aspx?id=13318">Svenskt biografiskt lexikon</reference>
+        <descriptiveNote>
+          <p>Stand: 03.12.2020</p>
+        </descriptiveNote>
+      </source>
+    </sources> [...]
+  </control> [...]
+</eac>
+```
