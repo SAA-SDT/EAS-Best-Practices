@@ -1,0 +1,95 @@
+---
+layout: default
+title: Matt Urban Center
+parent: _examples
+nav_order: 3
+---
+
+# Matt Urban Center
+
+**Schema:** 
+EAC-CPF
+
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="https://github.com/SAA-SDT/eac-cpf-schema/blob/master/xml-schemas/eac-cpf/eac.xsd"
+ xmlns="https://archivists.org/ns/eac/v2" audience="external">  
+  <control countryEncoding="iso3166-1" dateEncoding="iso8601" languageEncoding="iso639-2b"
+    maintenanceStatus="new" publicationStatus="published" repositoryEncoding="iso15511"
+    scriptEncoding="iso15924">
+    <recordId>001</recordId>
+    <maintenanceAgency>
+      <agencyCode>NBuU-AR</agencyCode>
+      <agencyName>University Archives</agencyName>
+    </maintenanceAgency>
+    <maintenanceHistory>
+      <maintenanceEvent maintenanceEventType="created">
+        <agent agentType="human">TS-EAS</agent>
+        <eventDateTime standardDateTime="2021-12-16"/>
+      </maintenanceEvent>
+      <maintenanceEvent maintenanceEventType="updated">
+        <agent agentType="human">TS-EAS</agent>
+        <eventDateTime standardDateTime="2022-03-07"/>
+      </maintenanceEvent>
+    </maintenanceHistory>
+    <conventionDeclaration>
+      <reference href="https://www2.archivists.org/standards">Describing Archives: A Content
+        Standard</reference>
+      <shortCode>DACS</shortCode>
+    </conventionDeclaration>
+    <localTypeDeclaration id="AAT">
+      <reference href="https://www.getty.edu/research/tools/vocabularies/aat/index.html"
+        >AAT</reference>
+      <descriptiveNote>
+        <p>Art and Architecture Thesaurus</p>
+      </descriptiveNote>
+    </localTypeDeclaration>
+  </control>
+  <cpfDescription>
+    <identity>
+      <entityType value="corporateBody"/>
+      <nameEntry scriptOfElement="Latn" languageOfElement="eng" status="authorized">
+        <part localType="primary_name">Lt. Col. Matt Urban Human Services Center of Western New
+          York</part>
+        <useDates>
+          <date localType="usage" standardDate="2000-11-11">2000 November 11</date>
+        </useDates>
+      </nameEntry>
+      <nameEntry status="alternative">
+        <part localType="primary_name">Matt Urban Center</part>
+      </nameEntry>
+      <nameEntry status="alternative">
+        <part localType="primary_name">Polish Community Center</part>
+        <useDates>
+          <dateRange localType="usage">
+            <fromDate standardDate="1976">1976</fromDate>
+            <toDate standardDate="2000">2000</toDate>
+          </dateRange>
+        </useDates>
+      </nameEntry>
+    </identity>
+    <description>
+      <functions>
+        <function valueURI="http://vocab.getty.edu/page/aat/300055433" vocabularySource="aat" vocabularySourceURI="https://www.getty.edu/research/tools/vocabularies/aat/">
+          <term>community development</term>         
+          <placeName target="IDPlaceName1">East Side (Buffalo, N.Y.)</placeName>
+          <descriptiveNote>
+            <p>The organization’s mission is to create programs to improve the quality of
+              residential housing and develop projects to improve the East Side of Buffalo and
+              Western New York.</p>
+          </descriptiveNote>
+        </function>
+      </functions>
+      <places>
+        <place>
+          <placeName vocabularySource="local" id="IDPlaceName1">East Side (Buffalo,
+            N.Y.)</placeName>
+          <geographicCoordinates coordinateSystem="WGS84">N 42°53′48" W
+            78°50′2"</geographicCoordinates>
+        </place>
+      </places>
+    </description>
+  </cpfDescription>
+</eac>
