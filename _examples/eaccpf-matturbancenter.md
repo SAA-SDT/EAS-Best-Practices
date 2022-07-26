@@ -13,6 +13,7 @@ EAC-CPF
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- EAC-CPF 2.0 example file prepared by TS EAS describing the Matt Urban Center -->
 <eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="https://github.com/SAA-SDT/eac-cpf-schema/blob/master/xml-schemas/eac-cpf/eac.xsd"
  xmlns="https://archivists.org/ns/eac/v2" audience="external">  
