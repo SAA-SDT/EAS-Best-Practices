@@ -20,9 +20,9 @@ The maintenance history must contain at least one maintenance event to record an
 
 The `<maintenanceEvent>` can be used to enter information about origination and point in time of any assertion made in the EAS instance.
 
-Add the attribute @id in <maintenanceEvent> in order to identify this particular element. Use the attribute @maintenanceEventReferecence in any of the the elements of the identity area, the description area, and the relations allows for linking back to this particular element `<maintenanceEvent>` in the current EAC-CPF instance.
+Add the attribute @id in `<maintenanceEvent>` in order to identify this particular element. Use the attribute @maintenanceEventReferecence in any of the the elements of the identity area, the description area, and the relations allows for linking back to this particular element `<maintenanceEvent>` in the current EAC-CPF instance.
   
-**Examples**
+**Example**
 ```xml
 <eac>
   <control maintenanceStatus="revised">
