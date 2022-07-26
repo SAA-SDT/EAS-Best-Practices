@@ -13,7 +13,7 @@ EAC-CPF
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- EAC-CPF 2.0 example file minimal with a minimal mandatory set of elements and attributes -->
+<!-- EAC-CPF 2.0 example file prepared by TS EAS with a minimal mandatory set of elements and attributes -->
 <eac xmlns="https://archivists.org/ns/eac/v2"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://github.com/SAA-SDT/eac-cpf-schema/blob/master/xml-schemas/eac-cpf/eac.xsd">
