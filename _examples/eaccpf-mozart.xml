@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- EAC-CPF 2.0 example file prepared by TS EAS describing Mozart -->
+<eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="https://github.com/SAA-SDT/eac-cpf-schema/blob/master/xml-schemas/eac-cpf/eac.xsd"
+	xmlns="https://archivists.org/ns/eac/v2" audience="external">
+	<control countryEncoding="iso3166-1" dateEncoding="iso8601" languageEncoding="iso639-2b" maintenanceStatus="new"
+		publicationStatus="published" repositoryEncoding="iso15511" scriptEncoding="iso15924">
+		<recordId>https://kalliope-verbund.info/gnd/118584618</recordId>
+		<maintenanceAgency countryCode="DE">
+			<agencyCode status="authorized">DE-611</agencyCode>
+			<agencyName>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Kalliope-Verbund</agencyName>
+			<agencyName languageOfElement="eng">Berlin State Library - Prussian Cultural Heritage, Kalliope Union Catalog</agencyName>
+		</maintenanceAgency>
+		<maintenanceHistory>
+			<maintenanceEvent maintenanceEventType="created">
+				<agent agentType="human">DE-101</agent>
+				<eventDateTime standardDateTime="1988-07-01"/>
+			</maintenanceEvent>
+			<maintenanceEvent maintenanceEventType="revised">
+				<agent agentType="human">1400</agent>
+				<eventDateTime standardDateTime="2015-10-15"/>
+			</maintenanceEvent>
+		</maintenanceHistory>
+		<sources>
+			<source>
+				<reference>Szb. Mozart-Lex.</reference>
+			</source>
+		</sources>
+		<conventionDeclaration>
+			<reference href="https://www.loc.gov/aba/rda/">Resource Description and Access</reference>
+			<shortCode>RDA</shortCode>
+		</conventionDeclaration>
+		<languageDeclaration languageCode="ger" scriptCode="Latn"/>
+		<localTypeDeclaration id="GNDO">
+			<reference href="https://d-nb.info/standards/elementset/gnd_20191015">GNDO</reference>
+			<descriptiveNote>
+				<p>Gemeinsame Normdatei Ontologie</p>
+				<p languageOfElement="eng">Integrated Authority File Ontology</p>
+				<p>Version 2019-10-15</p>
+			</descriptiveNote>
+		</localTypeDeclaration>
+<!-- Here we declare MARC21 System Control Number 035 and subfield Code a -->
+		<localTypeDeclaration id="MARC21-035a">
+			<reference href="https://www.loc.gov/marc/authority/ad035.html">MARC21: 035$a - System Control Number (R)</reference>
+		</localTypeDeclaration>
+<!-- Here we declare MARC21 System Control Number 035 and subfield Code z -->
+		<localTypeDeclaration id="MARC21-035z">
+			<reference href="https://www.loc.gov/marc/authority/ad035.html">MARC21: 035$z - Canceled/invalid system control number</reference>
+		</localTypeDeclaration>
+<!-- Here we refer to the valid authority file record number using the vocabulary of Gemeinsame Normdatei Ontology (GNDO) -->
+		<otherRecordId vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#gndIdentifier" valueURI="http://d-nb.info/gnd/118584618">118584618</otherRecordId>
+		<!-- Here we refer to an authority file record number using MARC21, originated by the German National Library (DE-101) and we link internally to the Local Type Declaration for 035$a of MARC21 -->
+		<otherRecordId localType="035$a" localTypeDeclarationReference="MARC21-035a">(DE-101)118584618</otherRecordId>
+		<!-- Here we refer to an authority file record number using the vocabulary of Gemeinsame Normdatei Ontology (GNDO), originated by Gemeinsame Normdatei (DE-588) -->
+		<otherRecordId localType="035$a" localTypeDeclarationReference="MARC21-035a" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#gndIdentifier" valueURI="http://d-nb.info/gnd/118584618">(DE-588)118584618</otherRecordId>
+		<!-- Here we refer to an invalid authority file record number using the vocabulary of Gemeinsame Normdatei Ontology (GNDO), originated by Personennormdatei (DE-588a) -->
+		<otherRecordId localType="035$z" localTypeDeclarationReference="MARC21-035z" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#oldAuthorityNumber" valueURI="http://d-nb.info/gnd/118584618">(DE-588a)118584618</otherRecordId>	
+		<!-- Here we refer to an invalid authority file record number using the vocabulary of Gemeinsame Normdatei Ontology (GNDO), originated by Schlagwort Normdatei (DE-588c) -->
+		<otherRecordId localType="035$z" localTypeDeclarationReference="MARC21-035z" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#oldAuthorityNumber" valueURI="http://d-nb.info/gnd/4040426-2">(DE-588c)4040426-2</otherRecordId>
+		<rightsDeclaration>
+			<reference href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0 1.0 Universell</reference>
+		</rightsDeclaration>
+	</control>
+	<cpfDescription>	
+		<identity>
+			<entityType value="family"/>		
+			<nameEntry status="authorized">
+				<part localType="100$a">Mozart</part>
+				<part localType="100$c">Familie : 17.-19. Jh.</part>
+			</nameEntry>
+		</identity>
+		<description>
+			<localDescriptions>
+				<localDescription localType="https://d-nb.info/standards/elementset/gnd#associatedDate" localTypeDeclarationReference="GNDO">
+					<term>ca. 17. Jh.-19. Jh.</term>			
+				</localDescription>
+				<localDescription localType="https://d-nb.info/standards/elementset/gnd#broaderTermInstantial" localTypeDeclarationReference="GNDO" valueURI="https://d-nb.info/gnd/4016397-0" vocabularySource="GND"
+					vocabularySourceURI="https://d-nb.info/standards/vocab/gnd/gnd-sc.html#">
+					<term>Familie</term>
+				</localDescription>				
+				<localDescription localType="https://d-nb.info/standards/elementset/gnd#geographicAreaCode" localTypeDeclarationReference="GNDO" valueURI="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT"
+					vocabularySource="GND" vocabularySourceURI="https://d-nb.info/standards/vocab/gnd/geographic-area-code#">		
+					<term>Österreich</term>
+				</localDescription>
+				<localDescription localType="https://d-nb.info/standards/elementset/gnd#geographicAreaCode" localTypeDeclarationReference="GNDO" valueURI="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE"
+					vocabularySource="GND" vocabularySourceURI="https://d-nb.info/standards/vocab/gnd/geographic-area-code#">
+					<term>Deutschland</term>
+				</localDescription>	
+				<localDescription  localType="https://d-nb.info/standards/elementset/gnd#gndSubjectCategory" localTypeDeclarationReference="GNDO" valueURI="https://d-nb.info/standards/vocab/gnd/gnd-sc#14.4p"
+					vocabularySource="GND" vocabularySourceURI="https://d-nb.info/standards/vocab/gnd/gnd-sc#">
+					<term>Personen zu Musik</term>
+				</localDescription>
+				<localDescription  localType="https://d-nb.info/standards/elementset/gnd#gndSubjectCategory" localTypeDeclarationReference="GNDO" valueURI="https://d-nb.info/standards/vocab/gnd/gnd-sc.html#16.5p"
+					vocabularySource="GND" vocabularySourceURI="https://d-nb.info/standards/vocab/gnd/gnd-sc.html#">
+					<term>Personen der Geschichte (Politiker und historische Persönlichkeiten)</term>
+				</localDescription>
+			</localDescriptions>
+			<places>
+				<place>
+					<placeName valueURI="https://d-nb.info/gnd/4076982-3" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">Salzburg</placeName>
+					<placeRole valueURI="https://d-nb.info/standards/elementset/gnd#characteristicPlace" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Charakteristischer Ort</placeRole>
+				</place>
+				<place>
+					<placeName valueURI="https://d-nb.info/gnd/4066009-6" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">Wien</placeName>	
+					<placeRole valueURI="https://d-nb.info/standards/elementset/gnd#characteristicPlace" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Charakteristischer Ort</placeRole>
+				</place>
+				<place>
+					<placeName valueURI="https://d-nb.info/gnd/4003614-5" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">Augsburg</placeName>	
+					<placeRole valueURI="https://d-nb.info/standards/elementset/gnd#characteristicPlace" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Charakteristischer Ort</placeRole>
+				</place>					
+			</places>				
+			<biogHist>
+				<p>Österr. Musikerfamilie</p>
+			</biogHist>					
+		</description>
+		<relations>
+			<relation>
+				<targetEntity targetType="family" valueURI="http://d-nb.info/gnd/118584618" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">
+					<part>Mozart, Familie</part>
+				</targetEntity>
+				<relationType>Identity</relationType>
+			</relation>
+			<relation>
+				<targetEntity targetType="person" valueURI="https://d-nb.info/gnd/1068251107" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">
+					<part localType="https://d-nb.info/standards/elementset/gnd#personalName" localTypeDeclarationReference="GNDO">Mozart, Johann Georg</part>
+					<part localType="https://d-nb.info/standards/elementset/gnd#dateOfBirthAndDeath" localTypeDeclarationReference="GNDO">1679-1736</part>
+				</targetEntity>
+				<relationType valueURI="https://d-nb.info/standards/elementset/gnd#memberOfTheFamily" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Familienmitglied</relationType>
+			</relation>
+			<relation>
+				<targetEntity targetType="person" valueURI="https://d-nb.info/gnd/1068251859" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">
+					<part localType="https://d-nb.info/standards/elementset/gnd#personalName" localTypeDeclarationReference="GNDO">Mozart, Anna Maria</part>
+					<part localType="https://d-nb.info/standards/elementset/gnd#dateOfBirthAndDeath" localTypeDeclarationReference="GNDO">1696-1766</part>
+				</targetEntity>
+				<relationType valueURI="https://d-nb.info/standards/elementset/gnd#memberOfTheFamily" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Familienmitglied</relationType>
+			</relation>				
+			<relation>
+				<targetEntity targetType="person" valueURI="https://d-nb.info/gnd/118584588" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">
+					<part localType="https://d-nb.info/standards/elementset/gnd#personalName" localTypeDeclarationReference="GNDO">Mozart, Leopold</part>
+					<part localType="https://d-nb.info/standards/elementset/gnd#dateOfBirthAndDeath" localTypeDeclarationReference="GNDO">1719-1787</part>
+				</targetEntity>
+				<relationType valueURI="https://d-nb.info/standards/elementset/gnd#memberOfTheFamily" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Familienmitglied</relationType>
+			</relation>						
+			<relation>
+				<targetEntity targetType="person" valueURI="https://d-nb.info/gnd/119285428" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">
+					<part localType="https://d-nb.info/standards/elementset/gnd#personalName" localTypeDeclarationReference="GNDO">Mozart, Anna Maria</part>
+					<part localType="https://d-nb.info/standards/elementset/gnd#dateOfBirthAndDeath" localTypeDeclarationReference="GNDO">1720-1778</part>
+				</targetEntity>
+				<relationType valueURI="https://d-nb.info/standards/elementset/gnd#memberOfTheFamily" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Familienmitglied</relationType>
+			</relation>					
+			<relation>
+				<targetEntity targetType="person" valueURI="https://d-nb.info/gnd/118584596" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">
+					<part localType="https://d-nb.info/standards/elementset/gnd#personalName" localTypeDeclarationReference="GNDO">Mozart, Wolfgang Amadeus</part>
+					<part localType="https://d-nb.info/standards/elementset/gnd#dateOfBirthAndDeath" localTypeDeclarationReference="GNDO">1756-1791</part>
+				</targetEntity>
+				<relationType valueURI="https://d-nb.info/standards/elementset/gnd#memberOfTheFamily" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Familienmitglied</relationType>
+			</relation>				
+			<relation>
+				<targetEntity targetType="person" valueURI="https://d-nb.info/gnd/11858460X" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">
+					<part localType="https://d-nb.info/standards/elementset/gnd#personalName" localTypeDeclarationReference="GNDO">Mozart, Maria Anna Walburga Ignatia</part>
+					<part localType="https://d-nb.info/standards/elementset/gnd#dateOfBirthAndDeath" localTypeDeclarationReference="GNDO">1751-1829</part>
+				</targetEntity>
+				<relationType valueURI="https://d-nb.info/standards/elementset/gnd#memberOfTheFamily" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Familienmitglied</relationType>
+			</relation>						
+			<relation>
+				<targetEntity targetType="person" valueURI="https://d-nb.info/gnd/11873721X" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">
+					<part localType="https://d-nb.info/standards/elementset/gnd#personalName" localTypeDeclarationReference="GNDO">Mozart, Constanze</part>
+					<part localType="https://d-nb.info/standards/elementset/gnd#dateOfBirthAndDeath" localTypeDeclarationReference="GNDO">1762-1842</part>
+				</targetEntity>
+				<relationType valueURI="https://d-nb.info/standards/elementset/gnd#memberOfTheFamily" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Familienmitglied</relationType>
+			</relation>				
+			<relation>
+				<targetEntity targetType="person" valueURI="https://d-nb.info/gnd/119176653" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">
+					<part localType="https://d-nb.info/standards/elementset/gnd#personalName" localTypeDeclarationReference="GNDO">Mozart, Franz Xaver Wolfgang</part>
+					<part localType="https://d-nb.info/standards/elementset/gnd#dateOfBirthAndDeath" localTypeDeclarationReference="GNDO">1791-1844</part>
+				</targetEntity>
+				<relationType valueURI="https://d-nb.info/standards/elementset/gnd#memberOfTheFamily" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Familienmitglied</relationType>
+			</relation>				
+			<relation>
+				<targetEntity targetType="person" valueURI="https://d-nb.info/gnd/117145114" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">
+					<part localType="https://d-nb.info/standards/elementset/gnd#personalName" localTypeDeclarationReference="GNDO">Mozart, Carl</part>
+					<part localType="https://d-nb.info/standards/elementset/gnd#dateOfBirthAndDeath" localTypeDeclarationReference="GNDO">1784-1858</part>
+				</targetEntity>
+				<relationType valueURI="https://d-nb.info/standards/elementset/gnd#memberOfTheFamily" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Familienmitglied</relationType>
+			</relation>				
+			<relation>
+				<targetEntity targetType="person" valueURI="https://d-nb.info/gnd/122594967" vocabularySource="GND" vocabularySourceURI="https://d-nb.info/gnd/">
+					<part localType="https://d-nb.info/standards/elementset/gnd#personalName" localTypeDeclarationReference="GNDO">Mozart, Maria Anna Thekla</part>
+					<part localType="https://d-nb.info/standards/elementset/gnd#dateOfBirthAndDeath" localTypeDeclarationReference="GNDO">1758-1841</part>
+				</targetEntity>
+				<relationType valueURI="https://d-nb.info/standards/elementset/gnd#memberOfTheFamily" vocabularySource="GNDO" vocabularySourceURI="https://d-nb.info/standards/elementset/gnd#">Familienmitglied</relationType>
+			</relation>		
+		</relations>
+	</cpfDescription>
+</eac>
