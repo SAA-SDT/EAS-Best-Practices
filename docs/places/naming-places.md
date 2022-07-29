@@ -38,7 +38,7 @@ When describing a CPF entity, the description of this entity’s functions, acti
                 <placeName>Texas Southern University, Houston</placeName>
                 <placeName>Howard University, Washington, D.C.</placeName>
                 <placeName>State University of New York at Albany</placeName>
-                <placeName>New Brunswick campus, Rutger University, New Jersey</placeName>
+                <placeName>New Brunswick campus, Rutgers University, New Jersey</placeName>
                 <placeName>Bard College, Annandale-on-Hudson</placeName>
                 <placeName>Cornell University, Ithaca</placeName>
                 <placeName>Princeton University, Princeton</placeName>
