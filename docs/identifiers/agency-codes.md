@@ -14,7 +14,7 @@ EAC-CPF
 Code or identifier for the institution or service responsible for the creation, maintenance, and/or dissemination of the EAS instance.
 
 **Description:** 
-Identify the institution or service responsible for the present EAS instance with a unique code or identifier preferably according to the [International Standard Identifier for Libraries and Related Organizations (ISIL)](https://www.iso.org/standard/77849.html), ISO 15511:2019, within the element `<agencyCode>`. If this is not the case then local institution codes may be given with the ISO 3166-1 alpha-2 country code as the prefix to aim for international uniqueness.
+Identify the institution or service responsible for the present EAS instance with a unique code or identifier, preferably according to the [International Standard Identifier for Libraries and Related Organizations (ISIL)](https://www.iso.org/standard/77849.html), ISO 15511:2019, within the element `<agencyCode>`. If this is not the case then Local institution codes may be given with the ISO 3166-1 alpha-2 country code as the prefix to aim for international uniqueness.
 
 Use the attribute @status with the value "authorized" or "alternative" to declare whether the agency code is using an authorized value, e.g. a registered ISIL code, or an alternative one.
 

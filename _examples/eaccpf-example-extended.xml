@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- EAC-CPF 2.0 example file prepared by TS EAS extended with all possible elements and attributes -->
 <eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="https://eac.staatsbibliothek-berlin.de/schema/v2/eac.xsd"
-    xmlns="https://archivists.org/ns/eac/v2" audience="internal" id="eaccpf1" languageOfElement="en"
-    scriptOfElement="lat" base="baseURI">
+ xsi:schemaLocation="https://archivists.org/ns/eac/v2 https://eac.staatsbibliothek-berlin.de/schema/v2/eac.xsd"
+ xmlns="https://archivists.org/ns/eac/v2" audience="internal" id="eaccpf1" languageOfElement="en"
+ scriptOfElement="lat" base="baseURI">
     <control audience="external" base="baseURI" countryEncoding="iso3166-1" dateEncoding="iso8601"
         id="control1" languageEncoding="iso639-1" languageOfElement="en" maintenanceStatus="new"
         publicationStatus="inProcess" repositoryEncoding="iso15511" scriptEncoding="iso15924"
         scriptOfElement="lat" target="cpfDescription1">
-        <recordId audience="external" id="recordid1" languageOfElement="en" scriptOfElement="lat" target="otherrecordid1">record identifier</recordId>
+        <recordId audience="external" id="recordid1" languageOfElement="en" scriptOfElement="lat"
+            target="otherrecordid1">record identifier</recordId>
         <maintenanceAgency audience="external" countryCode="DE" id="maintenanceagency1"
             languageOfElement="eng" scriptOfElement="lat" target="maintenancehistory1"
             valueURI="agencyURI" vocabularySource="ISIL" vocabularySourceURI="ISILURI">
@@ -22,21 +23,32 @@
             <otherAgencyCode audience="external" id="otherAgencyCode1" languageOfElement="eng"
                 localType="localAgencyCode" localTypeDeclarationReference="ltd1"
                 scriptOfElement="lat" status="alternative" valueURI="otherAgencyCodeURI"
-                vocabularySource="VIAF" vocabularySourceURI="VIAFURI" target="maintenanceagency1">other agency
-                code</otherAgencyCode>
+                vocabularySource="VIAF" vocabularySourceURI="VIAFURI" target="maintenanceagency1"
+                >other agency code</otherAgencyCode>
             <descriptiveNote>
                 <p audience="external" conventionDeclarationReference="cd1" id="p1"
                     languageOfElement="en" maintenanceEventReference="me1" scriptOfElement="lat"
-                    sourceReference="source1" target="maintenanceagency1">A generic element used within other
-                    elements of &lt;description&gt; that marks one or more sentences that form a
-                    logical prose passage. Repeat this element &lt;p&gt; in order to add more
-                    paragraphs or translations.</p>
+                    sourceReference="source1" target="maintenanceagency1">A generic element used
+                    within other elements of &lt;description&gt; that marks one or more sentences
+                    that form a logical prose passage. Repeat this element &lt;p&gt; in order to add
+                    more paragraphs or translations.</p>
                 <p>Information about the institution or service responsible for the creation,
                     maintenance, and/or dissemination of the EAC-CPF instance.</p>
             </descriptiveNote>
         </maintenanceAgency>
         <maintenanceHistory audience="external" id="maintenancehistory1" languageOfElement="de"
             scriptOfElement="lat" target="maintenanceagency1">
+            <maintenanceEvent maintenanceEventType="updated">
+                <agent agentType="human">TS-EAS team</agent>
+                <eventDateTime standardDateTime="2022-08-03"/>
+                <eventDescription>Update the example file after finalising schema</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent maintenanceEventType="updated">
+                <agent agentType="human">TS-EAS team</agent>
+                <eventDateTime standardDateTime="2021-02-23"/>
+                <eventDescription>Update the example file after finalising draft
+                    schema</eventDescription>
+            </maintenanceEvent>
             <maintenanceEvent audience="external" id="me1" languageOfElement="de"
                 maintenanceEventType="created" scriptOfElement="lat" target="maintenancehistory1">
                 <agent agentType="human" audience="external" id="agent1" languageOfElement="de"
@@ -49,11 +61,6 @@
                     scriptOfElement="lat" target="me1">Record an activity in the creation and
                     ongoing maintenance of an EAC-CPF instance, including revisions, updates, and
                     deletions.</eventDescription>
-            </maintenanceEvent>
-            <maintenanceEvent maintenanceEventType="updated">
-                <agent agentType="human">TS-EAS team</agent>
-                <eventDateTime standardDateTime="2021-02-23"/>
-                <eventDescription>Update the example file after finalising draft schema</eventDescription>
             </maintenanceEvent>
             <maintenanceEvent maintenanceEventType="updated">
                 <agent agentType="human">TS-EAS team</agent>
@@ -70,8 +77,12 @@
                 <reference audience="external" conventionDeclarationReference="cd1"
                     href="externallink" id="reference1" languageOfElement="en" linkTitle="linktext"
                     linkRole="application/pdf" maintenanceEventReference="me1" scriptOfElement="lat"
-                    sourceReference="source1" target="source1">external <span audience="external" conventionDeclarationReference="cd1" id="sp1" languageOfElement="en" localType="localspan" localTypeDeclarationReference="ltd1" maintenanceEventReference="me1" sourceReference="source1" scriptOfElement="lat" target="reference1" style="font-style:italic">reference</span> to a
-                    source</reference>
+                    sourceReference="source1" target="source1">external <span audience="external"
+                        conventionDeclarationReference="cd1" id="sp1" languageOfElement="en"
+                        localType="localspan" localTypeDeclarationReference="ltd1"
+                        maintenanceEventReference="me1" sourceReference="source1"
+                        scriptOfElement="lat" target="reference1" style="font-style:italic"
+                        >reference</span> to a source</reference>
                 <citedRange audience="external" id="citedRang1" languageOfElement="eng"
                     scriptOfElement="lat" target="reference1" unit="pagenumber">p. 1</citedRange>
                 <descriptiveNote>
@@ -103,9 +114,9 @@
                 Romanization of Japanese</reference>
             <shortCode>DIN 32708:2014</shortCode>
             <descriptiveNote id="dn1">
-                <p languageOfElement="de">Angewendet werden nur die eigentlichen
-                    Umschriftvorgaben, nicht aber die Regeln zur Wortbildung in der lateinischen
-                    Umschrift. Diese erfolgt analog der Praxis von NACSIS.</p>
+                <p languageOfElement="de">Angewendet werden nur die eigentlichen Umschriftvorgaben,
+                    nicht aber die Regeln zur Wortbildung in der lateinischen Umschrift. Diese
+                    erfolgt analog der Praxis von NACSIS.</p>
             </descriptiveNote>
         </conventionDeclaration>
         <conventionDeclaration audience="external" id="cd3">
@@ -124,7 +135,9 @@
             localType="localtype" localTypeDeclarationReference="ltd1" scriptOfElement="lat"
             target="control1" valueURI="localcontrolURI" vocabularySource="localcontrolvocab"
             vocabularySourceURI="localcontrolvocabURI">
-            <term audience="external" conventionDeclarationReference="cd1" id="t1" languageOfElement="en" maintenanceEventReference="me1" scriptOfElement="lat" sourceReference="source1" target="localControl1">term for local control</term>
+            <term audience="external" conventionDeclarationReference="cd1" id="t1"
+                languageOfElement="en" maintenanceEventReference="me1" scriptOfElement="lat"
+                sourceReference="source1" target="localControl1">term for local control</term>
             <date audience="external" calendar="gregorian" certainty="circa"
                 conventionDeclarationReference="cd1" era="ce" id="date1" languageOfElement="en"
                 localType="localDate1" localTypeDeclarationReference="ltd1"
@@ -138,16 +151,19 @@
             <reference>external reference to the local type</reference>
             <shortCode>acronym, abbreviation or short code of the local type</shortCode>
             <descriptiveNote>
-                <p>Local Type Declarations specifies the local conventions and controlled vocabularies used in @localType attributes in the EAC-CPF instance.</p>
+                <p>Local Type Declarations specifies the local conventions and controlled
+                    vocabularies used in @localType attributes in the EAC-CPF instance.</p>
             </descriptiveNote>
         </localTypeDeclaration>
         <otherRecordId audience="external" id="otherrecordid1" languageOfElement="en"
             localType="localRecordId" localTypeDeclarationReference="ltd1" scriptOfElement="lat"
             valueURI="recordURI" vocabularySource="recordVocabulary"
-            vocabularySourceURI="recordVocabularyURI" target="control1">other record identifier</otherRecordId>
+            vocabularySourceURI="recordVocabularyURI" target="control1">other record
+            identifier</otherRecordId>
         <representation audience="external" id="representation1" href="link to representation"
-            languageOfElement="en"  localType="localRepresentation" localTypeDeclarationReference="ltd1"
-            linkRole="roleOfLink" linkTitle="linktext" scriptOfElement="lat" target="control1">text about representation; use case: 
+            languageOfElement="en" localType="localRepresentation"
+            localTypeDeclarationReference="ltd1" linkRole="roleOfLink" linkTitle="linktext"
+            scriptOfElement="lat" target="control1">text about representation; use case:
             https://snaccooperative.org/view/44995506</representation>
         <rightsDeclaration audience="external" id="rightsdeclaration1" languageOfElement="en"
             scriptOfElement="lat" target="control1" valueURI="rightsURI"
@@ -159,8 +175,7 @@
             </descriptiveNote>
         </rightsDeclaration>
     </control>
-    <multipleIdentities audience="external" base="baseURI" id="multipleidentities1"
-        target="eaccpf1">
+    <multipleIdentities audience="external" base="baseURI" id="multipleidentities1" target="eaccpf1">
         <cpfDescription audience="external" base="baseURI" conventionDeclarationReference="cd1"
             id="cpfDescription1" languageOfElement="eng" maintenanceEventReference="me1"
             scriptOfElement="lat" sourceReference="source1" target="control1">
@@ -179,7 +194,11 @@
                         preferredForm="true" scriptOfElement="lat" sourceReference="source1"
                         status="authorized" target="nameEntrySet1" valueURI="http://nameURI"
                         vocabularySource="VIAF" vocabularySourceURI="VIAFUri">
-                        <part audience="external" conventionDeclarationReference="cd1" id="part1" languageOfElement="en" localType="localPart" localTypeDeclarationReference="ltd1" maintenanceEventReference="me1" scriptOfElement="lat" sourceReference="source1" target="nameentry1">part of name</part>
+                        <part audience="external" conventionDeclarationReference="cd1" id="part1"
+                            languageOfElement="en" localType="localPart"
+                            localTypeDeclarationReference="ltd1" maintenanceEventReference="me1"
+                            scriptOfElement="lat" sourceReference="source1" target="nameentry1">part
+                            of name</part>
                         <useDates audience="external" conventionDeclarationReference="cd1"
                             id="useDates" languageOfElement="en" maintenanceEventReference="me1"
                             scriptOfElement="lat" sourceReference="source1" target="nameEntrySet1">
@@ -266,9 +285,10 @@
                             countryCode="DE" id="placeName1" languageOfElement="en"
                             localType="loacalplacetype1" localTypeDeclarationReference="ltd1"
                             maintenanceEventReference="me1" scriptOfElement="lat"
-                            sourceReference="source1" target="otherentitytypes1" valueURI="http://placeNameURI"
-                            vocabularySource="source" vocabularySourceURI="http://sourceURI">place
-                            entry for other entity type</placeName>
+                            sourceReference="source1" target="otherentitytypes1"
+                            valueURI="http://placeNameURI" vocabularySource="source"
+                            vocabularySourceURI="http://sourceURI">place entry for other entity
+                            type</placeName>
                         <descriptiveNote>
                             <p>descriptive note for other entity type</p>
                         </descriptiveNote>
@@ -350,8 +370,8 @@
                             sourceReference="source1" target="languageused1">English</language>
                         <writingSystem audience="external" conventionDeclarationReference="cd1"
                             id="script1" languageOfElement="en" maintenanceEventReference="me1"
-                            scriptCode="lat" scriptOfElement="lat" sourceReference="source1" target="languageused1"
-                            >Latin</writingSystem>
+                            scriptCode="lat" scriptOfElement="lat" sourceReference="source1"
+                            target="languageused1">Latin</writingSystem>
                         <descriptiveNote>
                             <p>note for this information on used language and script</p>
                         </descriptiveNote>
@@ -370,7 +390,8 @@
                         scriptOfElement="lat" sourceReference="source1"
                         valueURI="http://legalstatusterm.org"
                         vocabularySource="legalstatusvocaburlary"
-                        vocabularySourceURI="http://legalstatusvocaburlary.org" target="legalStatuses1">
+                        vocabularySourceURI="http://legalstatusvocaburlary.org"
+                        target="legalStatuses1">
                         <term>legal status term</term>
                         <date>1960</date>
                         <placeName>place related to a legal status</placeName>
@@ -478,7 +499,11 @@
                             valueURI="http://vocabularySource.uri/placeRole"
                             vocabularySourceURI="http://vocabularySource.uri"
                             vocabularySource="sourceofvocabulary">example place</placeRole>
-                        <geographicCoordinates audience="external" conventionDeclarationReference="cd1" coordinateSystem="WGS84" id="geoco1" languageOfElement="lat" maintenanceEventReference="me1" scriptOfElement="lat" sourceReference="source1" target="place1">N 52° 31' 27'', E 13° 24' 37''</geographicCoordinates>
+                        <geographicCoordinates audience="external"
+                            conventionDeclarationReference="cd1" coordinateSystem="WGS84"
+                            id="geoco1" languageOfElement="lat" maintenanceEventReference="me1"
+                            scriptOfElement="lat" sourceReference="source1" target="place1">N 52°
+                            31' 27'', E 13° 24' 37''</geographicCoordinates>
                         <address audience="external" conventionDeclarationReference="cd1"
                             id="address1" languageOfElement="en" localType="localAdress"
                             localTypeDeclarationReference="ltd1" maintenanceEventReference="me1"
@@ -534,7 +559,7 @@
                         id="abstract1" languageOfElement="en" localType="localAbstract"
                         localTypeDeclarationReference="ltd1" maintenanceEventReference="me1"
                         scriptOfElement="lat" sourceReference="source1" target="biogHist1">brief
-                        <span>summary</span> of the information contained within the <reference
+                            <span>summary</span> of the information contained within the <reference
                             href="https://biography.com">biography</reference> or history as a
                         whole</abstract>
                     <chronList audience="external" conventionDeclarationReference="cd1"
@@ -597,8 +622,10 @@
                     <p><span style="font-style:bold">Header</span>extended desription of biography
                         or history</p>
                     <p>text with <reference href="https:externalLink.com">link to
-                        reference</reference> in text</p>
-                    <p><reference href="https:externalLink.com">link to reference</reference></p>
+                            reference</reference> in text</p>
+                    <p>
+                        <reference href="https:externalLink.com">link to reference</reference>
+                    </p>
                 </biogHist>
                 <existDates audience="external" conventionDeclarationReference="cd1"
                     id="existDates1" languageOfElement="en" localType="existDates"
@@ -620,8 +647,8 @@
                             localType="localToDate" localTypeDeclarationReference="ltd1"
                             maintenanceEventReference="me1" notAfter="2019" notBefore="1900"
                             scriptOfElement="lat" sourceReference="source1"
-                            standardDate="2010-12-31" status="ongoing" calendar="gregorian" target="dateRange1" era="ce">end date of
-                            existence</toDate>
+                            standardDate="2010-12-31" status="ongoing" calendar="gregorian"
+                            target="dateRange1" era="ce">end date of existence</toDate>
                     </dateRange>
                     <descriptiveNote>
                         <p>descriptive Note for dates of existence</p>
@@ -640,8 +667,8 @@
                         <item audience="external" conventionDeclarationReference="cd1" id="i1"
                             languageOfElement="en" localType="localitem"
                             localTypeDeclarationReference="ltd1" maintenanceEventReference="me1"
-                            scriptOfElement="lat" sourceReference="source1" target="gc1">list
-                            item, unordered with circle</item>
+                            scriptOfElement="lat" sourceReference="source1" target="gc1">list item,
+                            unordered with circle</item>
                         <item>list item, unorded with circle</item>
                     </list>
                     <list listType="ordered">
@@ -674,7 +701,8 @@
                         id="targetEntity1" languageOfElement="en" maintenanceEventReference="me1"
                         scriptOfElement="lat" sourceReference="source1" valueURI="http://entity.uri"
                         vocabularySource="sourceofentityvoc"
-                        vocabularySourceURI="http://sourceofentityvoc.org" targetType="person" target="relation1">
+                        vocabularySourceURI="http://sourceofentityvoc.org" targetType="person"
+                        target="relation1">
                         <part>name or part of the name or term of the related entity</part>
                     </targetEntity>
                     <dateSet>
@@ -720,8 +748,8 @@
             </relations>
             <alternativeSet audience="external" base="baseURI"
                 conventionDeclarationReference="cpfDescription1" id="as1" languageOfElement="eng"
-                maintenanceEventReference="me1" scriptOfElement="lat"
-                sourceReference="source1" target="control1">
+                maintenanceEventReference="me1" scriptOfElement="lat" sourceReference="source1"
+                target="control1">
                 <setComponent audience="external" conventionDeclarationReference="cd1"
                     href="www.externallink.com" id="sc1" languageOfElement="eng" linkRole=""
                     linkTitle="link" maintenanceEventReference="me1" scriptOfElement="lat"
@@ -731,7 +759,10 @@
                         localTypeDeclarationReference="ltd1" maintenanceEventReference="me1"
                         scriptOfElement="lat" sourceReference="source1" target="sc1"
                         valueURI="componententryvalue" vocabularySourceURI="componententryvocab"
-                        vocabularySource="http://componententryvocab.org">Alternative authority record of the EAC-CPF instance being described to be referenced and described, as well as allowing the inclusion of the entire encoding of such alternative authority record in any XML format.</componentEntry>
+                        vocabularySource="http://componententryvocab.org">Alternative authority
+                        record of the EAC-CPF instance being described to be referenced and
+                        described, as well as allowing the inclusion of the entire encoding of such
+                        alternative authority record in any XML format.</componentEntry>
                     <descriptiveNote>
                         <p>Note about the alternative authority record of the EAC-CPF instance.</p>
                     </descriptiveNote>
