@@ -14,9 +14,9 @@ EAC-CPF
 Defining local conventions and value lists that are not present in an online vocabulary possible to enrich the descriptions. 
 
 **Description:** 
-When there are no appropriate type attributes to fully describe an element, it is possible to use one or more locally defined conventions or value lists.  First, declare the type convention/list in the `<localTypeDeclaration>` element within the `<control>` section.  Use the `id` attribute to "name" the convention/list (which will be referred to via `localTypeDeclarationReference` in the EAC instance).  Note that `id` uses the `xml:id` data type, and thus cannot start with a number and cannot include spaces.
+When there are no appropriate type attributes to fully describe an element, it is possible to use one or more locally defined conventions or value lists.  First, declare the type convention/list in the `<localTypeDeclaration>` element within the `<control>` section.  Use the @id attribute to "name" the convention/list (which will be referred to via @localTypeDeclarationReference in the EAC instance).  Note that @id uses the `xml:id` data type, and thus cannot start with a number and cannot include spaces.
 
-Use the required `<reference>` element to identify the convention or value list via a human-readable label, and the `href` attribute to provide a URI for the source, if available.  Use `descriptiveNote` to provide further information about the convention/list, such as a brief description or the version used by the EAC instance.
+Use the required `<reference>` element to identify the convention or value list via a human-readable label, and the @href attribute to provide a URI for the source, if available.  Use @descriptiveNote to provide further information about the convention/list, such as a brief description or the version used by the EAC instance.
 
 **Examples** 
 ```xml

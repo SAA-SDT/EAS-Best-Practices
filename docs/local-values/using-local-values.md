@@ -15,7 +15,7 @@ Referencing a locally defined convention or value lists in the encoding.
 
 **Description:** 
 
-Once `<localTypeDeclaration>` has been defined, it can be used via the `localType` and `localTypeDeclarationReference` attributes.  Use `localType` to provide the element's type (e.g. type of name or date, type of function), which should come from the convention/list defined in `<localTypeDeclaration>`.  Use `localTypeDeclarationReference` to refer to the convention/list; the value should match the `id` for the convention/list in `<localTypeDeclaration>`.
+Once `<localTypeDeclaration>` has been defined, it can be used via the @localType and @localTypeDeclarationReference attributes.  Use @localType to provide the element's type (e.g. type of name or date, type of function), which should come from the convention/list defined in `<localTypeDeclaration>`.  Use @localTypeDeclarationReference to refer to the convention/list; the value should match the @id for the convention/list in `<localTypeDeclaration>`.
 
 
 **Examples**
