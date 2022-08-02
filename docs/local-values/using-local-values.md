@@ -14,7 +14,9 @@ EAC-CPF
 Referencing a locally defined convention or value lists in the encoding. 
 
 **Description:** 
-When the local type declaration has been made it is possible in all elements where the local type attribute is available to reference the locally defined convention or value list. The step two of referencing is based upon the use of two attributes @localType and @localTypeDeclarationReference where the first gives the value or convention used and the second gives the reference to the local type declaration that has been used. The use of the @localTypeDeclarationReference assures that the local type declaration has been used by containing the identification of the declaration and it being checked through rules present in the schema by using xml:id and the identification reference mechanism.
+
+Once `<localTypeDeclaration>` has been defined, it can be used via the @localType and @localTypeDeclarationReference attributes.  Use @localType to provide the element's type (e.g. type of name or date, type of function), which should come from the convention/list defined in `<localTypeDeclaration>`.  Use @localTypeDeclarationReference to refer to the convention/list; the value should match the @id for the convention/list in `<localTypeDeclaration>`.
+
 
 **Examples**
 ```xml
