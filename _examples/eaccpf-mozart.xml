@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- EAC-CPF 2.0 example file prepared by TS EAS describing Mozart -->
+<?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eas-schematrons/main/schematron/eac.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <eac xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
  xsi:schemaLocation="https://archivists.org/ns/eac/v2 https://eac.staatsbibliothek-berlin.de/schema/v2/eac.xsd"
  xmlns="https://archivists.org/ns/eac/v2" audience="external">
@@ -30,7 +31,7 @@
 			<reference href="https://www.loc.gov/aba/rda/">Resource Description and Access</reference>
 			<shortCode>RDA</shortCode>
 		</conventionDeclaration>
-		<languageDeclaration languageCode="ger" scriptCode="Latn"/>
+		<languageDeclaration languageCode="deu" scriptCode="Latn"/>
 		<localTypeDeclaration id="GNDO">
 			<reference href="https://d-nb.info/standards/elementset/gnd_20191015">GNDO</reference>
 			<descriptiveNote>
