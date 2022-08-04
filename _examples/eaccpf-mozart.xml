@@ -31,7 +31,7 @@
 			<reference href="https://www.loc.gov/aba/rda/">Resource Description and Access</reference>
 			<shortCode>RDA</shortCode>
 		</conventionDeclaration>
-		<languageDeclaration languageCode="deu" scriptCode="Latn"/>
+		<languageDeclaration languageCode="ger" scriptCode="Latn"/>
 		<localTypeDeclaration id="GNDO">
 			<reference href="https://d-nb.info/standards/elementset/gnd_20191015">GNDO</reference>
 			<descriptiveNote>
