@@ -22,8 +22,8 @@ The available value for `<date>` and `<fromDate>` is "unknown", and the availabl
 **Example**
 ```xml
 <dateRange>
- 	<fromDate status="unknown"/>
-	<toDate toDate certainty="uncertain" standardDate="2010?">c. 2010</toDate> 
+    <fromDate status="unknown"/>
+	<toDate certainty="uncertain" standardDate="2010?">circa 2010</toDate> 
 </dateRange>
 ```
 
