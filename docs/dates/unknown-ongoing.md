@@ -22,7 +22,7 @@ The available value for `<date>` and `<fromDate>` is "unknown", and the availabl
 **Example**
 ```xml
 <dateRange>
-    <fromDate status="unknown"/>
+	<fromDate status="unknown"/>
 	<toDate certainty="uncertain" standardDate="2010?">circa 2010</toDate> 
 </dateRange>
 ```
@@ -32,7 +32,7 @@ The available value for `<date>` and `<fromDate>` is "unknown", and the availabl
 	<date standardDate="2014-07">July 2014</date>
 	<dateRange>
 		<fromDate standardDate="2016-09">September 2016</fromDate>
- 		<toDate status="ongoing"/>
+		<toDate status="ongoing"/>
 	</dateRange>
 </dateSet>
 ```
