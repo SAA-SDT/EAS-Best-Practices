@@ -8,7 +8,7 @@ nav_order: 1
 # Simple lists for structuring
 
 **Schema:** 
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:** 
 Using simple lists in the context of narrative description to structure information
