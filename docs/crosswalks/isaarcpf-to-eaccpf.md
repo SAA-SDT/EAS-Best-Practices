@@ -18,21 +18,14 @@ nav_order: 1
 
 ## 5.1 Identity area | `<cpfDescription>` `<identity>`
 <div class="code-example" markdown="1">
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-| ISAAR (CPF)  | EAC-CPF           |
-|------|------|
-| 5.1.1 Type of entity | `<entityType @value>` |
-| 5.1.2 Authorized form(s) of name | `<nameEntry @status="authorized">` |
-| 5.1.3 Parallel forms of name | `<nameEntrySet @localType="parallel">` |
+| ISAAR (CPF)                                               | EAC-CPF                                       |
+|:----------------------------------------------------------|:----------------------------------------------|
+| 5.1.1 Type of entity                                      | `<entityType @value>`                         |
+| 5.1.2 Authorized form(s) of name                          | `<nameEntry @status="authorized">`            |
+| 5.1.3 Parallel forms of name                              | `<nameEntrySet @localType="parallel">`        |
 | 5.1.4 Standardized forms of name according to other rules | `<nameEntry @conventionDeclarationReference>` |
-| 5.1.5 Other forms of name | `<nameEntry>` |
-| 5.1.6 Identifiers for corporate bodies | `<identityId>` |
+| 5.1.5 Other forms of name                                 | `<nameEntry>`                                 |
+| 5.1.6 Identifiers for corporate bodies                    | `<identityId>`                                |
 </div>
 
 ## 5.2 Description area | `<cpfDescription>` `<description>`
