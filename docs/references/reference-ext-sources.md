@@ -8,7 +8,7 @@ nav_order: 3
 # Referencing external sources
 
 **Schema:** 
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:** 
 Creating references to external sources from an EAC-CPF instance.
