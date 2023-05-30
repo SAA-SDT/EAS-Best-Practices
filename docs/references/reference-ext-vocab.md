@@ -8,7 +8,7 @@ nav_order: 2
 # Referencing external vocabularies, ontologies, etc.
 
 **Schema:**
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:**
 Creating references to external vocabularies and ontologies from an EAC-CPF instance.
