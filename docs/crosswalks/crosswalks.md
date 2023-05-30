@@ -8,5 +8,5 @@ permalink: /docs/crosswalks
 
 # Crosswalks
 
-View or download example xml records encoded in eac-cpf or ead. 
+Metadata and standards crosswalks for archival description and encoding. 
 {: .fs-6 .fw-300 }
