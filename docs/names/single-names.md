@@ -7,7 +7,7 @@ nav_order: 1
 
 # Single name
 **Schema:**
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:**
 Encoding a single name, if necessary with multiple name parts.
