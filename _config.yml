@@ -23,7 +23,7 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
-logo: "https://github.com/SAA-SDT/EAS-TagLibraries/raw/master/images/SAAHoriz%5B540%5D.jpg"
+logo: "/main/images/SAAHoriz-Blue_200.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
