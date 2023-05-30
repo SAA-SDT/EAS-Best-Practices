@@ -1,1 +1,15 @@
-remote_theme: just-the-docs/just-the-docs
+# default format -- remove the code below from line 4 on if you want to revert
+# remote_theme: just-the-docs/just-the-docs
+
+title: EAS Best Practices
+description: The Encoded Archival Standards: Best Practice Guide is a resource that describes and provides explanations and examples of complex encodings and concepts in Encoded Archival Context - Corporate Bodies, Persons and Families (EAC-CPF) and Encoded Archival Description (EAD).
+theme: just-the-docs
+
+url: https://saa-sdt.github.io/EAS-Best-Practices/
+
+aux_links: # remove if you don't want this link to appear on your pages
+  Template Repository:https://saa-sdt.github.io/EAS-Best-Practices/
+  
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/images/SAAHoriz-Blue_200.png"
+
