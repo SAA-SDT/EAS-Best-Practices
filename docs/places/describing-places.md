@@ -8,7 +8,7 @@ nav_order: 2
 # Describing places
 
 **Schema:**
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:** 
 Encoding the name of a place of relevance to the entity being described along with further details about the place
