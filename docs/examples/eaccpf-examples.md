@@ -5,7 +5,7 @@ parent: Examples
 nav_order: 1
 ---
 
-# EAC-CPF xml
+# EAC-CPF 2.0 xml
 {: .no_toc }
 
 ## Table of contents
