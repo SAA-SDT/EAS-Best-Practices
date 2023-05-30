@@ -7,7 +7,7 @@ nav_order: 1
 
 # Uncertain dates
 **Schema:**
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:**
 Encoding uncertain dates in `<date>`, `<toDate>`, `<fromDate>`
