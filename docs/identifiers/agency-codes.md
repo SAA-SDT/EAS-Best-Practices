@@ -8,7 +8,7 @@ nav_order: 4
 # Agency codes
 
 **Schema:** 
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:** 
 Code or identifier for the institution or service responsible for the creation, maintenance, and/or dissemination of the EAS instance.
