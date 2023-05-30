@@ -10,7 +10,7 @@ nav_order: 2
 <img src="https://github.com/SAA-SDT/EAS-Best-Practices/raw/main/images/relation-resource.png" width="350"/>
 
 **Schema:**
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:**
 Describe the relationship between the entity described and a resource, like archival records, fonds, papers, publications, images/photos etc.
