@@ -7,7 +7,7 @@ nav_order: 1
 
 # General remarks on relation encoding
 **Schema:**
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:**
 The encoding of relationships describes the nature of a relationship between (at least) two entities. The relationship direction always points from the person, family or corporate body described in the EAC-CPF instance to the target entity.
