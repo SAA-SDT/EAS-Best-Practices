@@ -8,7 +8,7 @@ nav_order: 2
 # Sources of evidence
 
 **Schema:** 
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:** 
 Source of evidence used for the establishment of the description of the CPF entity in the EAC-CPF instance.
