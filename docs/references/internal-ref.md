@@ -8,7 +8,7 @@ nav_order: 1
 # Internal references
 
 **Schema:**
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:** 
 Creating a reference from one element to another element in a single EAC-CPF instance.
