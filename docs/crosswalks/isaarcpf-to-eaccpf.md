@@ -17,7 +17,7 @@ nav_order: 1
 ---
 
 ## 5.1 Identity area | `<cpfDescription>` `<identity>`
-<div class="code-example" markdown="1">
+
 | ISAAR (CPF)                                               | EAC-CPF                                       |
 |:----------------------------------------------------------|:----------------------------------------------|
 | 5.1.1 Type of entity                                      | `<entityType @value>`                         |
@@ -26,7 +26,6 @@ nav_order: 1
 | 5.1.4 Standardized forms of name according to other rules | `<nameEntry @conventionDeclarationReference>` |
 | 5.1.5 Other forms of name                                 | `<nameEntry>`                                 |
 | 5.1.6 Identifiers for corporate bodies                    | `<identityId>`                                |
-</div>
 
 ## 5.2 Description area | `<cpfDescription>` `<description>`
 <div class="code-example" markdown="1">
