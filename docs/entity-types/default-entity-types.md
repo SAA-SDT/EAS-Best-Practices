@@ -7,7 +7,7 @@ nav_order: 1
 
 # Default entity types
 **Schema:** 
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:** 
 Encoding the type of agent being described in an EAC-CPF instance
