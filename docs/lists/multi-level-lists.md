@@ -8,7 +8,7 @@ nav_order: 2
 # Multi-level lists
 
 **Schema:** 
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:** 
 Using multi-level lists in the context of narrative description to convey more complex structures.
