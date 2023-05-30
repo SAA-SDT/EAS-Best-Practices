@@ -8,7 +8,7 @@ nav_order: 1
 # Grouping events in a chronological list
 
 **Schema:**
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:** 
 Encoding two or more events and/or places within a timeline.
