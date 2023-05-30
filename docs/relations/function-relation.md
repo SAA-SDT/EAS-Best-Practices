@@ -10,7 +10,7 @@ nav_order: 4
 <img src="https://github.com/SAA-SDT/EAS-Best-Practices/raw/main/images/relation-function.png" width="350"/>
 
 **Schema:**
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:**
 Describe the relationship between the entity described and a function.
