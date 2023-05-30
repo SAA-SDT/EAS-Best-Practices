@@ -18,8 +18,15 @@ nav_order: 1
 
 ## 5.1 Identity area | `<cpfDescription>` `<identity>`
 <div class="code-example" markdown="1">
-| **ISAAR (CPF)** | **EAC-CPF** |
-| ---- | ---- |
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+| ISAAR (CPF)  | EAC-CPF           |
+|------|------|
 | 5.1.1 Type of entity | `<entityType @value>` |
 | 5.1.2 Authorized form(s) of name | `<nameEntry @status="authorized">` |
 | 5.1.3 Parallel forms of name | `<nameEntrySet @localType="parallel">` |
@@ -31,7 +38,7 @@ nav_order: 1
 ## 5.2 Description area | `<cpfDescription>` `<description>`
 <div class="code-example" markdown="1">
 | **ISAAR (CPF)** | **EAC-CPF** |
-| ---- | ---- |
+|-----|-----|
 | 5.2.1	Dates of existence | `<existDates>` |
 | 5.2.2	History | `<biogHist>` |
 | 5.2.3 Places | `<places>` |
@@ -45,7 +52,7 @@ nav_order: 1
 ## 5.3 Relationships area | `<cpfDescription>` `<relations>` `<relation>`
 <div class="code-example" markdown="1">
 | **ISAAR (CPF)** | **EAC-CPF** |
-| ---- | ---- |
+|-----|-----|
 | 5.3.1	Identifiers of related corporate bodies, persons or families | `<targetEntity @valueURI>` |
 | 5.3.1	Names of related corporate bodies, persons or families | `<part>` |
 | 5.3.2 Category of relationship | `<relationType>` |
@@ -56,7 +63,7 @@ nav_order: 1
 ## 5.4 Control area | `<control>`
 <div class="code-example" markdown="1">
 | **ISAAR (CPF)** | **EAC-CPF** |
-| ---- | ---- |
+|-----|-----|
 | 5.4.1	Authority record identifier | `<recordId>` |
 | 5.4.2	Institution identifiers | `<maintenanceAgency>`	`<agencyCode>` |
 | 5.4.3 Rules and/or conventions | `<conventionDeclaration>` |
@@ -71,7 +78,7 @@ nav_order: 1
 ## 6.1 Relating corporate bodies, persons and families to archival materials and other resources |  `<cpfDescription>` `<relations>` `<relation>`
 <div class="code-example" markdown="1">
 | **ISAAR (CPF)** | **EAC-CPF** |
-| ---- | ---- |
+|-----|-----|
 | 6.1	Identifiers and titles of related resources | `<targetEntity @valueURI>` |
 | 6.2	Types of related resources | `<targetEntity @targetType>` |
 | 6.3 Nature of relationships | `<targetRole>` |
