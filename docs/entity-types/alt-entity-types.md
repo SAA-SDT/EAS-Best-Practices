@@ -8,7 +8,7 @@ nav_order: 2
 # Alternative entity types
 
 **Schema:** 
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:** 
 Encoding alternative types of agent being described in an EAC-CPF instance
