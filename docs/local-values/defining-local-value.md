@@ -8,7 +8,7 @@ nav_order: 1
 # Defining a local value list to be used in the encoding
 
 **Schema:** 
-EAC-CPF
+EAC-CPF 2.0
 
 **Context:** 
 Defining local conventions and value lists that are not present in an online vocabulary possible to enrich the descriptions. 
