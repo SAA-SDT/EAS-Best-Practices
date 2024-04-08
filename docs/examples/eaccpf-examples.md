@@ -18,19 +18,19 @@ nav_order: 1
 
 ## Minimal record
 **Example:**
-[eaccpf-example-minimal.xml](https://github.com/SAA-SDT/EAS-Best-Practices/blob/main/_examples/eaccpf-example-minimal.xml)
+[eaccpf-example-minimal.xml](../_examples/eac2/eaccpf-example-minimal.xml)
 
 ## Extended record
 
 **Example:**
-[eaccpf-example-extended.xml](https://github.com/SAA-SDT/EAS-Best-Practices/blob/main/_examples/eaccpf-example-extended.xml)
+[eaccpf-example-extended.xml](../_examples/eac2/eaccpf-example-extended.xml)
 
 ## Corporate body record
 
 **Example:**
-[eaccpf-matturbancenter.xml](https://github.com/SAA-SDT/EAS-Best-Practices/blob/main/_examples/eaccpf-matturbancenter.xml)
+[eaccpf-matturbancenter.xml](../_examples/eac2/eaccpf-matturbancenter.xml)
 
 ## Person record
 
 **Example:**
-[eaccpf-mozart.xml](https://github.com/SAA-SDT/EAS-Best-Practices/blob/main/_examples/eaccpf-mozart.xml)
+[eaccpf-mozart.xml](../_examples/eac2/eaccpf-mozart.xml)
