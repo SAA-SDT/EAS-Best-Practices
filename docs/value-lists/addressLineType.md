@@ -15,7 +15,6 @@ To identify the different parts of a physical address, e.g., for public access o
 **Example**
 ```xml
 <addressLine addressLineType="postalCode">11215</addressLine>
-
 <addressLine addressLineType="country">United States</country>
 ```
 
