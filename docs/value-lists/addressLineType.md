@@ -8,9 +8,20 @@ nav_order: 1
 # addressLineType
 
 **Scope Note:**
-To identify the different parts of a physical address eg for public access or to contact and/or communicate with someone by postal services [^1].
+To identify the different parts of a physical address, e.g., for public access or to contact and/or communicate with someone by postal services [^1].
+
+`@addressLineType` is an attribute used to specify the type of address in `<addressLine>`. Accepted values for `@addressLineType` are listed below with scope notes. 
+
+**Example**
+```xml
+<addressLine addressLineType="postalCode">11215</addressLine>
+
+<addressLine addressLineType="country">United States</country>
+```
 
 [^1]: Encoded Archival Guide (EAG): [http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library](http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library)
+
+___
 
 ## county
 **Scope Note[^2]:**
