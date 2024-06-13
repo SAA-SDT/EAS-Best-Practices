@@ -10,7 +10,7 @@ nav_order: 1
 **Scope Note:**
 To identify the different parts of a physical address eg for public access or to contact and/or communicate with someone by postal services [^1].
 
-[^1]: Encoded Archival Guide (EAG): [http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library] (http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library)
+[^1]: Encoded Archival Guide (EAG): [http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library](http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library)
 
 ## county
 **Scope Note[^2]:**
@@ -35,7 +35,7 @@ City, town, or village where a geographic location or feature is located.
 Post office box (postal box) number as part of the physical or postal address of a geographic location of feature. 
 
 ## postalCode 
-** Scope Note:** 
+**Scope Note:** 
 Postal code (ZIP code) as part of the physical or postal address of a geographic location of feature. 
 
 ## region 
@@ -45,3 +45,5 @@ First-order administrative division where a geographic location or feature is lo
 ## street 
 **Scope Note:** 
 Street name and house number and/or house name as part of the physical or postal address of a geographic location or feature.  
+
+
