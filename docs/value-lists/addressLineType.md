@@ -52,6 +52,10 @@ Postal code (ZIP code) as part of the physical or postal address of a geographic
 **Scope Note:** 
 First-order administrative division where a geographic location or feature is located; in a specific national context, this could be an autonomous or administrative region, a prefecture, a province, a state etc.; note that a term used for a first-level administrative division in one country might be used for a second-level administrative division in another country.  
 
+___
+
+
+
 ## street 
 **Scope Note:** 
 Street name and house number and/or house name as part of the physical or postal address of a geographic location or feature.  
