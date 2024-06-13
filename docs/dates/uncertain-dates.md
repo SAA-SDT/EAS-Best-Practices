@@ -26,9 +26,17 @@ EAC-CPF will also enable the use of the Extended Date/Time Format (EDTF), which 
 ```
 
 ```xml
-<date certainty="uncertain" standardDate="1968?">c. 1968</date> 
+<date certainty="uncertain" standardDate="1968?">circa 1968</date> 
 ```
-
+```xml
+<date notBefore="1701">not before the 18th century</date>
+```
+```xml
+<dateRange>
+	<fromDate notBefore="1720">not before the 1720s</fromDate>
+	<toDate notAfter="1759">not after the 1750s</toDate>
+</dateRange>
+```
 ```xml
 <dateRange>
 	<fromDate calendar="gregorian" certainty="approximate" era="ce" standardDate="1950">1950</fromDate>
