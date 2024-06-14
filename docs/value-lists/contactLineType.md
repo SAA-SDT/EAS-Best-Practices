@@ -16,7 +16,7 @@ To identify the different parts of an electronic address and details necessary t
 `@contactLineType` is used in `<contactLine>` with the following values: *directions, email, fax, homepage, mobileNumber, phoneNumber.*
 
 **EAD4:**
-`@contactLineType` is used in `<control>` with the following values: *EASList, otherContactLineTypeEncoding.* When choosing *EASList* add another `@contactLineType` with the following values: *directions, email, fax, homepage, mobileNumber, phoneNumber.* When choosing *otherContactLineTypeEncoding* specify the source and code in `<conventionDeclaration>`.
+`@contactLineTypeEncoding` is used in `<control>` with the following values: *EASList, otherContactLineTypeEncoding.* When choosing *EASList*, `@contactLineType` within `<contactLine>` will be expected with the following values: *directions, email, fax, homepage, mobileNumber, phoneNumber.* When choosing *otherContactLineTypeEncoding* specify the source of the values you will be using with `@contactLineType` in `<conventionDeclaration>`.
 
 ## directions
 **Scope Note:**
