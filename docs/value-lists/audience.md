@@ -9,6 +9,7 @@ nav_order: 2
 
 **Scope Note:**
 To define the visibility of an element's content.
+
 ___
 
 ## internal
