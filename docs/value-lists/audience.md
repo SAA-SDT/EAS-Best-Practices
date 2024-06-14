@@ -1,7 +1,7 @@
 ---
 layout: default
 title: audience
-parent: Value lists
+parent: EAS Value Lists
 nav_order: 2
 ---
 
@@ -9,13 +9,6 @@ nav_order: 2
 
 **Scope Note:**
 To define the visibility of an element's content.
-
-**EAC-CPF 2.0:**
-`@audience` may be used in all elements to define the content as "internal" or "external".
-
-**EAD4:**
-`@audienceEncoding` is used in `<control>` with the following values: *EASList, otherAudienceEncoding.* When choosing *EASList*, `@audience` will be expected with the following values: *internal, external.* When choosing *otherAudienceEncoding* specify the source of the values you will be using with `@audience` in `<conventionDeclaration>`.
-
 ___
 
 ## internal
