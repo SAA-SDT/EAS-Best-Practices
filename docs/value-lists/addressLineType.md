@@ -1,7 +1,7 @@
 ---
 layout: default
 title: addressLineType
-parent: Value lists
+parent: EAS Value Lists
 nav_order: 1
 ---
 
