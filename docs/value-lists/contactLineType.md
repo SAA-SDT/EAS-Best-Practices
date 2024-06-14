@@ -1,25 +1,40 @@
 ---
 layout: default
 title: contactLineType
-parent: Value lists
+parent: EAS Value Lists
 nav_order: 3
 ---
 
 # contactLineType
 
 **Scope Note:**
-To identify the different parts of an electronic address and details necessary to contact and/or communicate with someone. [^1].
+To identify the different parts of an electronic address and details necessary to contact and/or communicate with someone. Resources consulted for value terms and scope notes include:
 
-[^1]: Encoded Archival Guide (EAG): [http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library] (http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library)
+- Encoded Archival Guide (EAG): [http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library](http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library)
+- In extension of ISDIAH chapters 5.2.1 Location and address(es), and 5.2.2 Telephone, fax, email: [https://www.ica.org/app/uploads/2023/12/CBPS_2008_Guidelines_ISDIAH_First-edition_EN.pdf](https://www.ica.org/app/uploads/2023/12/CBPS_2008_Guidelines_ISDIAH_First-edition_EN.pdf)
 
-**EAC-CPF 2.0:**
-`@contactLineType` is used in `<contactLine>` with the following values: *directions, email, fax, homepage, mobileNumber, phoneNumber.*
-
-**EAD4:**
-`@contactLineTypeEncoding` is used in `<control>` with the following values: *EASList, otherContactLineTypeEncoding.* When choosing *EASList*, `@contactLineType` within `<contactLine>` will be expected with the following values: *directions, email, fax, homepage, mobileNumber, phoneNumber.* When choosing *otherContactLineTypeEncoding* specify the source of the values you will be using with `@contactLineType` in `<conventionDeclaration>`.
+___
 
 ## directions
 **Scope Note:**
-Directions to get to a geographic location or feature, eg by for public transport. [^2]
+Directions to get to a geographic location or feature, eg by for public transport.
 
-[^2]: In extension of ISDIAH chapter 5.2.1 Location and address(es), [https://www.ica.org/app/uploads/2023/12/CBPS_2008_Guidelines_ISDIAH_First-edition_EN.pdf] (https://www.ica.org/app/uploads/2023/12/CBPS_2008_Guidelines_ISDIAH_First-edition_EN.pdf)
+## email
+**Scope Note:**
+Email address(es) of an agent; it is recommended to use the [Recommendation E.123 (2001) Amendment 1 (05/08)](https://www.itu.int/rec/T-REC-E.123/en) for printed representation of telephone numbers, e-mail addresses, and web addresses, here eg: name@example.com
+
+## fax
+**Scope Note:**
+Fax number(s) of an agent; it is recommended to use the [Recommendation E.123 (2001) Amendment 1 (05/08)](https://www.itu.int/rec/T-REC-E.123/en) for printed representation of telephone numbers, e-mail addresses, and web addresses, here eg: +31 42 123 4568
+
+## homepage
+**Scope Note:**
+An electronic address, ie a website, used by an agent
+
+## mobileNumber
+**Scope Note:**
+Mobile phone number(s) of an agent; it is recommended to use the [Recommendation E.123 (2001) Amendment 1 (05/08)](https://www.itu.int/rec/T-REC-E.123/en) for printed representation of telephone numbers, e-mail addresses, and web addresses, here eg: +31 123 45 67 89
+
+## phoneNumber
+**Scope Note:**
+Landline phone number(s) of an agent; it is recommended to use the [Recommendation E.123 (2001) Amendment 1 (05/08)](https://www.itu.int/rec/T-REC-E.123/en) for printed representation of telephone numbers, e-mail addresses, and web addresses, here eg: +31 42 123 4567
