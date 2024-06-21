@@ -1,3 +1,9 @@
 remote_theme: just-the-docs/just-the-docs
 title: EAS Best Practice Guide
 author: Society of American Archivists Technical Subcommittee on Encoded Archival Standards (SAA TS-EAS)
+
+logo: "/images/SAAHoriz-Blue_200.png"
+
+aux_links:
+  "EAS BPG on GitHub":
+    - "https://github.com/SAA-SDT/EAS-Best-Practices/"
