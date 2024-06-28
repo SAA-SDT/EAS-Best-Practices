@@ -4,8 +4,8 @@ author: Society of American Archivists Technical Subcommittee on Encoded Archiva
 
 logo: "/images/SAAHoriz-Blue_200.png"
 
+color_scheme: blue
+
 aux_links:
   "EAS BPG on GitHub":
     - "https://github.com/SAA-SDT/EAS-Best-Practices/"
-
-color-scheme: blue
