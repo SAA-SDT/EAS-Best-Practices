@@ -7,3 +7,5 @@ logo: "/images/SAAHoriz-Blue_200.png"
 aux_links:
   "EAS BPG on GitHub":
     - "https://github.com/SAA-SDT/EAS-Best-Practices/"
+
+color_scheme: blue
