@@ -2,7 +2,7 @@
 layout: default
 title: descriptionOfComponentsType
 parent: EAS Value Lists
-nav_order: 6
+nav_order: 5
 ---
 
 # descriptionOfComponentsType
