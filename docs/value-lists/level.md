@@ -14,6 +14,8 @@ Resources used for values and scope notes:
  - ISAD(G) 2000, 2nd ed.
  - [SAA Dictionary](https://dictionary.archivists.org/)
 
+---
+
 ## class
 
 **Scope Note:**
