@@ -10,6 +10,8 @@ nav_order: 6
 **Scope Note:**
 The completeness or exhaustiveness of the description. Archivists may prescribe locally defined elements to satisfy each level of detail. [SAA dictionary definition](https://dictionary.archivists.org/entry/level-of-description.html)
 
+---
+
 ## basic
 
 **Scope Note:**
