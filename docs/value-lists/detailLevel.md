@@ -2,7 +2,7 @@
 layout: default
 title: detailLevel
 parent: EAS Value Lists
-nav_order: 5
+nav_order: 6
 ---
 
 # detailLevel
