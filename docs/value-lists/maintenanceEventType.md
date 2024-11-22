@@ -8,11 +8,11 @@ nav_order: 10
 # maintenanceEvent
 
 **Scope Note:**
-To identify the type of maintenance activity.
+To identify the type of maintenance activity. The terms below represent the action taken by an editor of a record. Resource consulted for value terms and scope notes include:
 
-Resources used for values and scope notes:
- - [...]
- - 
+ - EAC-CPF 2.0 Tag Library, [https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html#attr-maintenanceEventType](https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html#attr-maintenanceEventType)
+
+`@maintenanceEventType` is an attribute used to specify the maintenance activity in `<maintenanceEvent>`. Accepted values for `@maintenanceEventType` are listed below with scope notes. 
 
 ---
 
