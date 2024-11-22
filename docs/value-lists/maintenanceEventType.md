@@ -39,7 +39,7 @@ Indication that the instance was derived from another descriptive system.
 ## revised
 
 **Scope Note:**
-Any type of general modification to the EAC-CPF instance.
+Any type of general modification to the EAS instance.
 
 ## unknown
 
