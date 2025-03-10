@@ -15,7 +15,7 @@ ___
 ## internal
 **Example**
 ```xml
-<materialSpec audience="internal">Staff only notes about sensitive material</materialSpec>
+<otherIdentificationData audience="internal">Staff only notes about sensitive material</otherIdentificationData>
 ```
 
 ## external
