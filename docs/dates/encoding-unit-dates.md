@@ -5,7 +5,7 @@ parent: Dates
 nav_order: 1
 ---
 
-# Uncertain dates
+# Encoding unit dates
 **Schema:**
 EAD 4.0
 
