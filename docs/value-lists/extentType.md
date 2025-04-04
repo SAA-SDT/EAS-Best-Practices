@@ -8,7 +8,7 @@ nav_order: 8
 # extentType
 
 **Scope Note:**
-To identify the the nature of the extent statement being provided.
+To identify the nature of the extent statement being provided.
 
 Resources used for values and scope notes:
  - [...]
