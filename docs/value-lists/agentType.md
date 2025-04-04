@@ -2,7 +2,7 @@
 layout: default
 title: agentType
 parent: EAS Value Lists
-nav_order: 1
+nav_order: 2
 ---
 
 # agentType
