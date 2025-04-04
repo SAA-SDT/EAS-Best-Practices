@@ -2,7 +2,7 @@
 layout: default
 title: coverage
 parent: EAS Value Lists
-nav_order: 4
+nav_order: 5
 ---
 
 # coverage
