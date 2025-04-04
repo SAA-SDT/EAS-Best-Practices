@@ -2,7 +2,7 @@
 layout: default
 title: level
 parent: EAS Value Lists
-nav_order: 9
+nav_order: 12
 ---
 
 # level
