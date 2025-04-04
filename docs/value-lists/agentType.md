@@ -11,7 +11,7 @@ nav_order: 1
 To identify different types of agents who have created, managed, modified, published, or otherwise engaged with the archival materials being described, are mentioned in the materials, or have played a role in creating, modifying, and maintaining the EAS instance in question. Resources consulted for value terms and scope notes include:
 
 - ISAAR(CPF) International Standard Archival Authority Record for Corporate Bodies, Persons and Families, 2nd Edition: [https://www.ica.org/app/uploads/2023/12/CBPS_Guidelines_ISAAR_Second-edition_EN.pdf](https://www.ica.org/app/uploads/2023/12/CBPS_Guidelines_ISAAR_Second-edition_EN.pdf)
-- Records in Contexts Conceptual Model (RiC-CM), Version 1.0: [https://www.ica.org/app/uploads/2024/01/ric-cm-1.0_0.pdf] (https://www.ica.org/app/uploads/2024/01/ric-cm-1.0_0.pdf)
+- Records in Contexts Conceptual Model (RiC-CM), Version 1.0: [https://www.ica.org/app/uploads/2024/01/ric-cm-1.0_0.pdf](https://www.ica.org/app/uploads/2024/01/ric-cm-1.0_0.pdf)
 - Tag Library for the Encoded Archival Context - Corporate Bodies, Persons, and Families (EAC-CPF) 2.0.1: [https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html](https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html)
 
 `@agentType` is an attribute used to specify the type of agent in `<agent>`. Accepted values for `@agentType` are listed below with scope notes. 
