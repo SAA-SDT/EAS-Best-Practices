@@ -28,11 +28,12 @@ ___
 ## corporateBody
 **Scope Note:**
 An organization or group of persons that is identified by a particular name and that
-acts, or may act, as an entity. Also includes an individual acting in a corporate capacity. 
+acts, or may act, as an entity. Has a recognized legal or social status. Similar to CIDOC-CRM E40 (Legal Body), PROV-O Organization class, and Organization Ontology Organization class.  
 
 ## family 
 **Scope Note:** 
-... 
+Two or more persons related by birth, or through marriage, adoption, civil union, or
+other social conventions that bind them together as a socially recognized familial group.
 
 ## group 
 **Scope Note:** 
@@ -40,11 +41,11 @@ Two or more agents that act together as an agent. Traditionally, corporate bodie
 
 ## human 
 **Scope Note:** 
-... 
+A generic type of agent encompassing individual human beings as well as any kind of group of two or more persons. Used when something is confirmed to be human-made, but the agent cannot be further specified. 
 
 ## mechanism
 **Scope Note:** 
-... 
+A process, machine or system created by a person or group that performs an activity, e.g. a database, style sheet, or other system. May have both mechanical and software components or may be exclusively software.
 
 ## person 
 **Scope Note:** 
@@ -52,8 +53,8 @@ An individual human being. Most commonly, a human being (biological person) has 
 
 ## position 
 **Scope Note:** 
-... 
+Representing the intersection of person and group, a position or role is held by one or more individual persons in the context of a group and is as such recognized as a specific kind of agent. Position exists independently of the person or persons that hold it. Examples include elected positions, e.g. President, Prime Minister, Chancellor, State Secretary, Pope, etc.
 
 ## unknown 
 **Scope Note:** 
-...  
+Used if the agent and/or type of agent cannot be determined. 
