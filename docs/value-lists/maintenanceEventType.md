@@ -2,7 +2,7 @@
 layout: default
 title: maintenanceEventType
 parent: EAS Value Lists
-nav_order: 10
+nav_order: 13
 ---
 
 # maintenanceEvent
