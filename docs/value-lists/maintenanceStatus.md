@@ -2,7 +2,7 @@
 layout: default
 title: maintenanceStatus
 parent: EAS Value Lists
-nav_order: 11
+nav_order: 14
 ---
 
 # maintenanceStatus
