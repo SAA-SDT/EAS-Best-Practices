@@ -2,7 +2,7 @@
 layout: default
 title: audience
 parent: EAS Value Lists
-nav_order: 2
+nav_order: 3
 ---
 
 # audience
