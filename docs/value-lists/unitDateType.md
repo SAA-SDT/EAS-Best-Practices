@@ -2,7 +2,7 @@
 layout: default
 title: unitDateType
 parent: EAS Value Lists
-nav_order: 14
+nav_order: 22
 ---
 
 # unitDateType
