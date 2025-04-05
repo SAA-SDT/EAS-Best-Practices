@@ -5,7 +5,7 @@ parent: EAS Value Lists
 nav_order: 15
 ---
 
-# functionType
+# placeType
 
 **Scope Note:**
 To indicate the type of geographic feature or location. 
