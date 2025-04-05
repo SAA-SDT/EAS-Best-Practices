@@ -2,7 +2,7 @@
 layout: default
 title: status
 parent: EAS Value Lists
-nav_order: 13
+nav_order: 19
 ---
 
 # status
