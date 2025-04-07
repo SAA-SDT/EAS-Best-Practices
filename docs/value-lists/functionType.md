@@ -14,20 +14,36 @@ with national or international terminology. Alternatively, one might speak about
 Resources used for values and scope notes:
  - International Standard for Describing Functions (ISDF): [https://www.ica.org/app/uploads/2023/12/CBPS_2007_Guidelines_ISDF_First-edition_EN.pdf](https://www.ica.org/app/uploads/2023/12/CBPS_2007_Guidelines_ISDF_First-edition_EN.pdf)
  - Records in Contexts Conceptual Model (RiC-CM), Version 1.0: [https://www.ica.org/app/uploads/2024/01/ric-cm-1.0_0.pdf](https://www.ica.org/app/uploads/2024/01/ric-cm-1.0_0.pdf)
+ - Draft Tag Library for EAC-F, attribute Value with element Function Type
 
 ---
 
-## [...]
+## activity
 
 **Scope Note:**
 [...]
 
-## [...]
+## businessProcess
 
 **Scope Note:**
 [...]
 
-## [...]
+## function
+
+**Scope Note:**
+[...]
+
+## subfunction
+
+**Scope Note:**
+[...]
+
+## task
+
+**Scope Note:**
+[...]
+
+## transaction
 
 **Scope Note:**
 [...]
