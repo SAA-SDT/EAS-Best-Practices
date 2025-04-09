@@ -10,6 +10,8 @@ nav_order: 3
 **Scope Note:**
 To define the visibility of an element's content.
 
+`@audience` is an attribute available in all elements of the EAS. Accepted values for `@udience` are listed below with scope notes.
+
 ___
 
 ## internal
