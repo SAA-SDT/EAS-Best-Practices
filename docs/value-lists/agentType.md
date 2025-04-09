@@ -14,7 +14,7 @@ To identify different types of agents who have created, managed, modified, publi
 - Records in Contexts Conceptual Model (RiC-CM), Version 1.0: [https://www.ica.org/app/uploads/2024/01/ric-cm-1.0_0.pdf](https://www.ica.org/app/uploads/2024/01/ric-cm-1.0_0.pdf)
 - Tag Library for the Encoded Archival Context - Corporate Bodies, Persons, and Families (EAC-CPF) 2.0.1: [https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html](https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html)
 
-`@agentType` is an attribute used to specify the type of agent in `<agent>`. Accepted values for `@agentType` are listed below with scope notes. 
+`@agentType` is an attribute used to specify the type of agent in `<agent>`. Accepted values for `@agentType` are listed below with scope notes. *Please note that these values are currently under review by TS-EAS as part of the major revision of EAD and further alignment of all EAS in this context. During this period, changes to these values might occur resulting from TS-EAS internal feedback as well as feedback from the community during the EAD 4.0 Final Call for Comments.* 
 
 **Example**
 ```
