@@ -17,7 +17,7 @@ To identify different types of agents who have created, managed, modified, publi
 `@agentType` is an attribute used to specify the type of agent in `<agent>`. Accepted values for `@agentType` are listed below with scope notes. *Please note that these values are currently under review by TS-EAS as part of the major revision of EAD and further alignment of all EAS in this context. During this period, changes to these values might occur resulting from TS-EAS internal feedback as well as feedback from the community during the EAD 4.0 Final Call for Comments.* 
 
 **Example**
-```
+```xml
 <agent agentType="person">
   <label>Marie Curie</label>
   <role>Creator</role>
