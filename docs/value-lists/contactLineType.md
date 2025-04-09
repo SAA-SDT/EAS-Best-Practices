@@ -13,7 +13,7 @@ To identify the different parts of an electronic address and details necessary t
 - Encoded Archival Guide (EAG): [http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library](http://www.apex-project.eu/index.php/en/outcomes/standards/eag-2012/tag-library)
 - In extension of ISDIAH chapters 5.2.1 Location and address(es), and 5.2.2 Telephone, fax, email: [https://www.ica.org/app/uploads/2023/12/CBPS_2008_Guidelines_ISDIAH_First-edition_EN.pdf](https://www.ica.org/app/uploads/2023/12/CBPS_2008_Guidelines_ISDIAH_First-edition_EN.pdf)
 
-`@contactLineType` is an attribute used to specify the type of agent in `<contactLine>`. Accepted values for `@contactLineType` are listed below with scope notes.
+`@contactLineType` is an attribute used to specify the type of contact in `<contactLine>`. Accepted values for `@contactLineType` are listed below with scope notes.
 
 ___
 
