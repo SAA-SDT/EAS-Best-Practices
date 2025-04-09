@@ -21,7 +21,9 @@ To indicate the approach used in describing components within a finding aid. Res
 Refers to an overview description of series and subseries.
 
 ## combined
+**Scope Note:**
 Refers to cases when the narrative description of a series is followed immediately by a listing of the contents of that series.
 
 ## inDepth
+**Scope Note:**
 Refers to a description approach that provides a more detailed listing of the content of the materials, often at the file or item level.
