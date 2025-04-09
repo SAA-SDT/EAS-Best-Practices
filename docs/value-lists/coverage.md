@@ -13,16 +13,18 @@ Specifies whether a statement of physical description or digital archival object
 
 - Encoded Archival Description Tag Library: Version EAD3: [https://www2.archivists.org/sites/all/files/TagLibrary-VersionEAD3.pdf](https://www2.archivists.org/sites/all/files/TagLibrary-VersionEAD3.pdf)
 
+`@coverage` is an attribute used to specify the coverage of a specific `<extent>` statement respectively the coverage of an instantiation in `<formAvailable>`. Accepted values for `@coverage` are listed below with scope notes.
+
 ---
 
 ## part
 
 **Scope Note:**
 
-Refers to a portion of the total unit being described.
+Refers to a portion of the total unit being described. Several statements with coverage "part" can be complementing each other and refer to different parts of the total unit or can be parallel to each other.
 
 ## whole
 
 **Scope Note:**
 
-Refers to the entire unit being described.
+Refers to the entire unit being described. Several statements with coverage "whole" will always be considered parallel to each other.
