@@ -49,6 +49,7 @@ Use the element `<useDates>` within the element `<nameEntrySet>` to indicate the
 </nameEntrySet>
 ```
 ---
+
 ## Qualify authorized and alternative names
 **Schema:**
 EAC-CPF 2.0
@@ -72,6 +73,7 @@ Use the attribute @status for the element `<nameEntry>` and select one of the gi
 </nameEntrySet>
 ```
 ---
+
 ## Reflect parallel usage according to cataloging rules in North America
 **Schema:**
 EAC-CPF 2.0
@@ -102,6 +104,7 @@ Use the attribute `@localType` in `<nameEntry>` to specify the type of parallel 
 </nameEntrySet>
 ```
 ---
+
 ## Qualify a name as preferred name for display purposes
 **Schema:**
 EAC-CPF 2.0
