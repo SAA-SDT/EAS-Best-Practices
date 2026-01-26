@@ -9,8 +9,15 @@ assignees: ''
 
 <!--- Title of the page you are proposing (above) -->
 
+## Creator of issue
+<!--- State your name, affiliation and ways to reach you -->
+* Name and email:
+* Affiliation:
+
 ## Section of BPG to add page
 <!-- Check one section below -->
+- [ ] About
+- [ ] General guidelines
 - [ ] EAD
 - [ ] EAC-CPF
 - [ ] EAC-F
@@ -30,7 +37,9 @@ Text: e.g., Lists as part of narrative description (under Description)
 <!-- Provide new content directly in the markdown below. Remember to use markdown for general formatting within the text. -->
 
 # Title of page
-<!--- Main title for your page. Replace "Title of page" with your title -->
+<!-- Main title for your page. Replace "Title of page" with your title -->
+<!-- If including opening text, add it below. If including images, see note at end of form -->
+Optional text:
 
 **Schema:**
 <!--- list the EAS schema related to this page in the line below -->
@@ -49,7 +58,13 @@ Text:
 ```xml
 
 ```
-<!-- end of BPG page template. Use the section below to provide any other information you wish to contribute -->
+<!-- end of BPG page template. -->
 
-**Notes**
+**Instructions for Including Images**
+<!-- Image files must be openly available online. They will be copied into the BPG repository once approved. -->
+Use `<img src="">` to include images throughout the content. Example:
+<img src="https://github.com/SAA-SDT/EAS-Best-Practices/raw/main/images/SAAHoriz-Blue_200.png"/>
+
+**Other comments**
+<!-- Provide any other information you wish to share or contribute -->
 Text: 

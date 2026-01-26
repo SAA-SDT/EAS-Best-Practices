@@ -12,11 +12,8 @@ assignees: ''
 
 ## Creator of issue
 <!--- State your name, affiliation and ways to reach you -->
-<!--- Use the four lines and write after the dot-->
-1.
-2.
-3.
-4.
+* Name and email:
+* Affiliation:
 
 ## The page requiring attention:
 <!--- copy and paste the url of the BPG site below. -->
@@ -46,7 +43,5 @@ assignees: ''
 - [ ] Other
 
 ## Other comments
-<!--- Not obligatory, but suggest a fix/reason for the bug, -->
-<!--- or ideas how to implement the addition or change -->
-<!--- Write your text after the "Text:" -->
+<!-- Provide any other information you wish to share or contribute -->
 * Text:
