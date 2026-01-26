@@ -1,5 +1,5 @@
 ---
-name: Content submission proposal
+name: New page proposal
 about: Format new page content in template for submission to EAS BPG
 title: ''
 labels: ''

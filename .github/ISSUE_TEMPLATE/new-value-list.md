@@ -1,5 +1,5 @@
 ---
-name: Content submission proposal
+name: Value list proposal
 about: Format new value list for submission to EAS BPG
 title: ''
 labels: ''
