@@ -14,7 +14,7 @@ assignees: ''
 * Name and email:
 * Affiliation:
 
-## Which page does this term belong (one)
+## Which page does this term belong (choose one)
 <!-- Make an 'x' replacing the ' ' (space) inside the brackets to mark your choice. -->
 <!-- If you wish to submit terms for multiple pages, please use one issue template per page -->
 - [ ] addressLineType
