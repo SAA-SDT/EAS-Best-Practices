@@ -8,6 +8,5 @@ permalink: /docs/eac-F
 
 # Encoded Archival Context -- Functions (EAC-F)
 To come:
-* tag library ead4
-* earlier versions
+* tag library eac-f
 * links to other related pages 
