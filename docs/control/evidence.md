@@ -2,7 +2,7 @@
 layout: default
 title: Sources of evidence
 parent: Control
-nav_order: 2
+nav_order: 5
 ---
 
 # Sources of evidence

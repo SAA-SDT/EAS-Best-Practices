@@ -2,7 +2,7 @@
 layout: default
 title: Relation to a Resource
 parent: Relations
-nav_order: 2
+nav_order: 4
 ---
 
 # Relation to a Resource

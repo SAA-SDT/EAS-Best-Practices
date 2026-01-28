@@ -17,26 +17,26 @@ assignees: ''
 ## Which page does this term belong (choose one)
 <!-- Make an 'x' replacing the ' ' (space) inside the brackets to mark your choice. -->
 <!-- If you wish to submit terms for multiple pages, please use one issue template per page -->
-- [ ] addressLineType
-- [ ] agentType
-- [ ] audience
-- [ ] contactLineType
-- [ ] coverage
-- [ ] descriptionOfComponentsType
-- [ ] detailLevel
-- [ ] extentType
-- [ ] functionType
-- [ ] identityType
-- [ ] level
-- [ ] maintenanceEventType
-- [ ] maintenanceStatus
-- [ ] placeType
-- [ ] publicationStatus
-- [ ] relationType
-- [ ] status
-- [ ] subjectType
-- [ ] targetType
-- [ ] unitDateType
+[ ] addressLineType
+[ ] agentType
+[ ] audience
+[ ] contactLineType
+[ ] coverage
+[ ] descriptionOfComponentsType
+[ ] detailLevel
+[ ] extentType
+[ ] functionType
+[ ] identityType
+[ ] level
+[ ] maintenanceEventType
+[ ] maintenanceStatus
+[ ] placeType
+[ ] publicationStatus
+[ ] relationType
+[ ] status
+[ ] subjectType
+[ ] targetType
+[ ] unitDateType
 
 <!-- Provide new content directly in the markdown below. Remember to use markdown for general formatting within the text. -->
 

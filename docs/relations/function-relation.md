@@ -2,7 +2,7 @@
 layout: default
 title: Relation to a function
 parent: Relations
-nav_order: 4
+nav_order: 3
 ---
 
 # Relation to a function

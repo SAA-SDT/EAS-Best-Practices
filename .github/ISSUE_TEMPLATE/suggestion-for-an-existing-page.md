@@ -31,16 +31,16 @@ assignees: ''
 <!--- to let us know if you have content to contribute or -->
 <!--- if you need content created. -->
 * Text:
-- [ ] Yes, I have content to submit
-- [ ] No, I am requesting content for an existing page
+[ ] Yes, I have content to submit
+[ ] No, I am requesting content for an existing page
 
 ## The addition relates to
 <!--- Make an 'x' replacing the ' ' (space) inside the brackets to mark your choice. -->
-- [ ] EAC-CPF
-- [ ] EAC-F
-- [ ] EAD
-- [ ] Shared elements and attributes
-- [ ] Other
+[ ] EAC-CPF
+[ ] EAC-F
+[ ] EAD
+[ ] Shared elements and attributes
+[ ] Other
 
 ## Other comments
 <!-- Provide any other information you wish to share or contribute -->

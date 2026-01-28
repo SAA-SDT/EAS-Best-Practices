@@ -9,7 +9,9 @@ has_toc: true
 
 # Encoded Archival Standards: Best Practices Guide
 
-The Encoded Archival Standards: Best Practices Guide is a resource that describes and provides explanations and examples of complex encodings and concepts in Encoded Archival Context - Corporate Bodies, Persons and Families (EAC-CPF) and Encoded Archival Description (EAD).
+Under construction
+
+<!-- The Encoded Archival Standards: Best Practices Guide is a resource that describes and provides explanations and examples of complex encodings and concepts in Encoded Archival Context - Corporate Bodies, Persons and Families (EAC-CPF) and Encoded Archival Description (EAD).
 
 Created and maintained by the Society of American Archivists, Technical Subcommittee on Encoded Archival Standards (TS-EAS), the guide is intended to be a growing resource that will be built on and developed over time based on user community feedback and as use cases emerge.
 
@@ -21,3 +23,5 @@ TS-EAS welcomes contributions and feedback from users of the standards it manage
 * Reporting an issue via SAA: [https://www2.archivists.org/standards/TS-EAS-report-an-issue](https://www2.archivists.org/standards/TS-EAS-report-an-issue)
 * TS-EAS on GitHub: [https://github.com/SAA-SDT](https://github.com/SAA-SDT)
 * Mailing list: [EAD@LISTSERV.LOC.GOV](mailto:EAD@LISTSERV.LOC.GOV)
+
+-->

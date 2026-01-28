@@ -2,7 +2,7 @@
 layout: default
 title: Relation to a CPF entity
 parent: Relations
-nav_order: 3
+nav_order: 2
 ---
 
 # Relation to a CPF entity
