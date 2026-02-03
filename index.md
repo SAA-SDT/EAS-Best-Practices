@@ -13,7 +13,7 @@ The Encoded Archival Standards: Best Practices Guide is a collaborative resource
 
 While the Tag Libraries define each element and attribute individually, the Best Practices Guide provides in-depth explanations of elements and attributes being used together to fulfill a variety of use cases. These are accompanied by encoded examples, to clarify the usage.
 
-We are undergoing a major reorganization of the site during the approval process of the EAS schemas. You may access archived pages for current best practices and recommendations in GitHub: (https://github.com/SAA-SDT/EAS-Best-Practices/tree/main/previous-versions/2025)[https://github.com/SAA-SDT/EAS-Best-Practices/tree/main/previous-versions/2025]
+We are undergoing a major reorganization of the site during the approval process of the EAS schemas. You may access archived pages for current best practices and recommendations in GitHub: (Previous verison)[https://github.com/SAA-SDT/EAS-Best-Practices/tree/main/previous-versions/2025]
 
 <!-- The Encoded Archival Standards: Best Practices Guide is a resource that describes and provides explanations and examples of complex encodings and concepts in Encoded Archival Context - Corporate Bodies, Persons and Families (EAC-CPF) and Encoded Archival Description (EAD).
 
