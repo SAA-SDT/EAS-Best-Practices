@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Functions
-nav_order: 11
+nav_order: 8
 has_children: true
 permalink: /docs/function
 ---

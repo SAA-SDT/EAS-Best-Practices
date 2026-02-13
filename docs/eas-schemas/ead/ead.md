@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EAD
-nav_order: 3
-has_children: true
-permalink: /docs/ead
+parent: EAS Schemas
+nav_order: 1
 ---
 
 # Encoded Archival Description (EAD)

@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EAC-CPF
-nav_order: 4
-has_children: true
-permalink: /docs/eac-cpf
+parent: EAS Schemas
+nav_order: 2
 ---
 
 # Encoded Archival Context -- Corporate bodies, Persons and Families (EAC-CPF)

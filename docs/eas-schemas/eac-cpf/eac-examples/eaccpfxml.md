@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EAC-CPF xml
-parent: Examples
+parent: EAC-CPF Examples
 nav_order: 1
 ---
 

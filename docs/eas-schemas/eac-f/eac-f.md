@@ -1,9 +1,8 @@
 ---
 layout: default
 title: EAC-F
-nav_order: 5
-has_children: true
-permalink: /docs/eac-F
+parent: EAS Schemas
+nav_order: 3
 ---
 
 # Encoded Archival Context -- Functions (EAC-F)
