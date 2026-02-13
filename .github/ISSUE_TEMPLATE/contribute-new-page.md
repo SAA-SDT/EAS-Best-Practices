@@ -2,7 +2,7 @@
 name: New page proposal
 about: Format new page content in template for submission to EAS BPG
 title: ''
-labels: ''
+labels: 'draft'
 assignees: ''
 
 ---
@@ -14,14 +14,15 @@ assignees: ''
 * Name and email:
 * Affiliation:
 
-## Section of BPG to add page
-<!-- Check one section below -->
-[ ] About
+## Topic of proposed page
+<!-- Check all that apply -->
+<!--- Make an 'x' replacing the ' ' (space) inside the brackets -->
+[ ] General
+[ ] Editorial Guidelines
 [ ] EAD
 [ ] EAC-CPF
 [ ] EAC-F
 [ ] Shared elements and attributes
-[ ] General guidelines
 [ ] Control
 [ ] Names or Identity
 [ ] Description
@@ -30,12 +31,9 @@ assignees: ''
 [ ] References
 [ ] Crosswalks
 
-## Subpage location
-<!-- Provide the name of the subsection, if applicable. If you are proposing a new subsection, please provide the name of the subsection and the page. Please identify them clearly: e.g., Lists as part of narrative description (under Description) -->
-Text:
-
 <!-- Provide new content directly in the markdown below. Remember to use markdown for general formatting within the text. Images may be linked or attached to the issue. They will be copied into the BPG repository once approved. -->
-<!-- Please use publicly available images, if linking. Example: <img src="https://github.com/SAA-SDT/EAS-Best-Practices/raw/main/images/SAAHoriz-Blue_200.png"/> -->
+<!-- Images may added to content in markdown. Example: <img src="https://github.com/SAA-SDT/EAS-Best-Practices/raw/main/images/SAAHoriz-Blue_200.png"/> -->
+<!-- Images may also be attached to issue. Please indicate in text where the image should appear. -->
 
 # Title of page
 <!-- Main title for your page. Replace "Title of page" with your title -->
