@@ -2,7 +2,7 @@
 layout: default
 title: placeType
 parent: EAS Value Lists
-nav_order: 16
+nav_order: 17
 ---
 
 # placeType

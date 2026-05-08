@@ -2,7 +2,7 @@
 layout: default
 title: publicationStatus
 parent: EAS Value Lists
-nav_order: 17
+nav_order: 18
 ---
 
 # publicationStatus

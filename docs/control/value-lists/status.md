@@ -2,36 +2,31 @@
 layout: default
 title: status
 parent: EAS Value Lists
-nav_order: 18
+nav_order: 21
 ---
 
 # status
 
-**Scope Note:**
-To identify the status of the information given in specific elements such as codes, names, and dates.
-
-Resources used for values and scope notes:
- - [...]
- - 
-
 ---
 
 ## alternative
-
 **Scope Note:**
-[for codes and names, ...]
+Declares whether the element is using an alternative code or name, that is not authorized.
 
 ## authorized
-
 **Scope Note:**
-[for codes and names, ...]
+Declares whether the element is using an authorized code, e.g. a registered code, or name, authorized by an appropriate national or international agency or service.
+
+- [https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html](https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html)
 
 ## ongoing
-
 **Scope Note:**
-[for date ranges, ...]
+The date range is ongoing.
+
+- [https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html](https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html)
 
 ## unknown
-
 **Scope Note:**
-[for dates, ...]
+The date or part of a date range is unknown.
+
+- [https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html](https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html)

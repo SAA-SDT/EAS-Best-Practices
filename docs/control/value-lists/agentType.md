@@ -1,6 +1,6 @@
 ---
 layout: default
-title: audience
+title: agentType
 parent: EAS Value Lists
 nav_order: 3
 ---
