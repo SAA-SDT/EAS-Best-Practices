@@ -9,7 +9,8 @@ nav_order: 3
 
 **Scope Note:**
 To identify different types of agents who have created, managed, modified, published, or otherwise engaged with the archival materials being described, are mentioned in the materials, or have played a role in creating, modifying, and maintaining the EAS instance in question.
-___
+
+---
 
 ## corporateBody
 **Scope Note:**
