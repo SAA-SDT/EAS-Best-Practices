@@ -6,23 +6,17 @@ nav_order: 6
 ---
 
 # coverage
-
 **Scope Note:**
-
-Specifies whether a statement of physical description or digital archival object(s) relates to the entire unit being described or only a part thereof. Resources consulted for value terms and scope notes include:
+Specifies whether a statement of physical description or digital archival object(s) relates to the entire unit being described or only a part thereof.
 
 - Encoded Archival Description Tag Library: Version EAD3: [https://www2.archivists.org/sites/all/files/TagLibrary-VersionEAD3.pdf](https://www2.archivists.org/sites/all/files/TagLibrary-VersionEAD3.pdf)
 
 ---
 
 ## part
-
 **Scope Note:**
-
-Refers to a portion of the total unit being described.
+Refers to a portion of the total unit being described. Several statements with coverage "part" can be complementing each other and refer to different parts of the total unit or can be parallel to each other.
 
 ## whole
-
 **Scope Note:**
-
-Refers to the entire unit being described.
+Refers to the entire unit being described. Several statements with coverage "whole" will always be considered parallel to each other.

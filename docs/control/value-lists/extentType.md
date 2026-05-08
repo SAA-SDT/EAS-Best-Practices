@@ -6,27 +6,21 @@ nav_order: 9
 ---
 
 # extentType
-
 **Scope Note:**
-To identify the the nature of the extent statement being provided.
+To identify the nature of the extent statement being provided.
 
-Resources used for values and scope notes:
- - [...]
- - 
+ - EAD 4 0.2 Tag Library
 
 ---
 
 ## carrier
-
 **Scope Note:**
-[...]
+Refers to the number of containers.
 
 ## materialType
-
 **Scope Note:**
-[...]
+Indicates the type and/or number of the material types.
 
 ## spaceOccupied
-
 **Scope Note:**
-[...]
+Denotes the two- or threee-dimensional volume of the matierals.
