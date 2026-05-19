@@ -2,8 +2,8 @@
 name: New page proposal
 about: Format new page content in template for submission to EAS BPG
 title: ''
-labels: 'draft'
-assignees: ''
+labels: draft
+assignees: kolbeeee, yogitaatigoy, martincritelli, marieelia
 
 ---
 
@@ -61,4 +61,4 @@ Text:
 
 **Other comments**
 <!-- Provide any other information you wish to share or contribute -->
-Text: 
+Text:
