@@ -2,7 +2,7 @@
 layout: default
 title: Accessibility of Related Resources
 parent: Transparency in Descriptive Practices
-nav_order: 5
+nav_order: 6
 ---
 
 # Accessibility of Related Resources

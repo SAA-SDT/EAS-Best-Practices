@@ -2,7 +2,7 @@
 layout: default
 title: Accessibility of EAS Document
 parent: Transparency in Descriptive Practices
-nav_order: 4
+nav_order: 5
 ---
 
 # Accessibility of EAS Document
