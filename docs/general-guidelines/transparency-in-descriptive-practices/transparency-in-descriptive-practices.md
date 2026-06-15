@@ -4,7 +4,6 @@ title: Transparency in Descriptive Practices
 parent: General guidelines
 has_children: true
 nav_order: 1
-permalink: /docs/general-guidelines/transparency-in-descriptive-practices
 ---
 
 # Transparency in Descriptive Practices
