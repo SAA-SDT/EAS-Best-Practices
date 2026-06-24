@@ -3,6 +3,7 @@ layout: default
 title: EAC-F
 parent: EAS Schemas
 nav_order: 3
+permalink: /docs/eas-schemas/eac-f
 ---
 
 # Encoded Archival Context -- Functions (EAC-F)

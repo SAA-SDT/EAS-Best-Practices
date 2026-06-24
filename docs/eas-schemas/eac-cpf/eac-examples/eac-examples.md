@@ -3,7 +3,6 @@ layout: default
 title: EAC-CPF Examples
 parent: EAC-CPF
 nav_order: 
-has_children: true
 ---
 
 # Examples

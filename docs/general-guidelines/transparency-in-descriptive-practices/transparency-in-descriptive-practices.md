@@ -2,10 +2,12 @@
 layout: default
 title: Transparency in Descriptive Practices
 parent: General guidelines
-has_children: true
 nav_order: 1
+has_children: true
 permalink: /docs/general-guidelines/transparency-in-descriptive-practices
 ---
+
+# Identifiers
 
 # Transparency in Descriptive Practices
 TS-EAS have created guidelines for when you are using the EAS Suite to document use of AI, reparative work and or accessibility both for the description itself and related resources. 
