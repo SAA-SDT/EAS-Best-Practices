@@ -6,11 +6,8 @@ nav_order: 21
 ---
 
 # status
-Used in the following elements:
 
-### agencyCode
-### otherAgencyCode
-### nameEntry
+---
 
 ## alternative
 **Scope Note:**
@@ -21,16 +18,6 @@ Declares whether the element is using an alternative code or name, that is not a
 Declares whether the element is using an authorized code, e.g. a registered code, or name, authorized by an appropriate national or international agency or service.
 
 - [https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html](https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html)
-
----
-
-# status
-Used in the following elements:
-
-### date
-### fromDate
-### toDate
-### textualDate
 
 ## ongoing
 **Scope Note:**
