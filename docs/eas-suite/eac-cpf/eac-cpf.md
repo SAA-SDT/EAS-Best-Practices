@@ -11,8 +11,8 @@ permalink: /docs/eas-suite/eac-cpf
 
 Encoded Archival Context: Corporate Bodies, Persons, and Families (EAC-CPF) is the standard to use for describing a corporate body which can be either a company or a small non-profit organization, a person or a family by giving information about all the names this entity have had, when it existed and among other things also have it is related to another entity.
 
-{: .highlight }
 This is the description of the **creator** which through a function or activity produces records.
+{: .fs-6 }
 
 ## Links
 

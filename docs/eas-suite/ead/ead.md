@@ -11,8 +11,8 @@ permalink: /docs/eas-suite/ead
 
 Encoded Archival Description (EAD) is the standard to use for describing the materials that are found in an archive ranging from old parchments to newly created digital records. The description of all the materials in the archive facilitates the possibility to share, discover and access the collection with others than the ones working in the archive.
 
-{: .highlight }
 This is the description of **records** which is the result of a function or activity carried out by a creator.
+{: .fs-6 }
 
 ## Links 
 
