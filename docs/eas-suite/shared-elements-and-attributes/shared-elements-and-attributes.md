@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Shared elements and attributes
-parent: EAS Schemas
+parent: EAS Suite
 has_children: true
 nav_order: 4
-permalink: /docs/eas-schemas/shared-elements-and-attributes
+permalink: /docs/eas-suite/shared-elements-and-attributes
 ---
 
 # Shared Elements and Attributes
