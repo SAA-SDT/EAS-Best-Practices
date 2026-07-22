@@ -2,7 +2,6 @@
 layout: default
 title: About
 nav_order: 2
-has_children: true
 permalink: /docs/about
 ---
 
@@ -13,7 +12,7 @@ The Encoded Archival Standards (EAS) Suite includes the three standards EAD, EAC
 
 The Encoded Archival Standards Best Practices Guide, as a companion to the EAS Tag Libraries, is a living document created collaboratively by members of the [Technical Subcommittee on Encoded Archival Standards (TS-EAS) of the Society of American Archivists (SAA) Standards Committee](https://www2.archivists.org/groups/technical-subcommittee-on-encoded-archival-standards-ts-eas) and the user community of the EAS Suite.
 
-## Jump to section
+## Sections
 {: .no_toc .text-delta }
 
 1. TOC
@@ -36,6 +35,8 @@ Additional working groups are formed with members across the Sub-Teams to delive
 - **Documentation Task Force:** Responsible for maintaining Tag Libraries and Best Practices Guide
 - **Editorial Board:** Responsible for creating and vetting articles for Best Practices Guide
 
+* * *
+
 ## Navigation of site
 
 This site is organized into general categories listed in the sidebar: 
@@ -54,6 +55,8 @@ This site is organized into general categories listed in the sidebar:
 **Search** can be used to discover multiple pages with desired content.
 
 **EAS BPG GitHub link** is located in the upper right corner for navigation to the GitHub site.
+
+* * *
 
 ## Submitting issues (including content)
 
