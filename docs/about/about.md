@@ -7,10 +7,14 @@ permalink: /docs/about
 ---
 
 # About
+{: .no_toc }
 
 The Encoded Archival Standards (EAS) Suite includes the three standards EAD, EAC-CPF and EAC-F. They provide the different XML formats to use for giving the description of the answers to the Who (EAC-CPF), Why (EAC-F) and What (EAD) of records in XML.
 
 The Encoded Archival Standards Best Practices Guide, as a companion to the EAS Tag Libraries, is a living document created collaboratively by members of the [Technical Subcommittee on Encoded Archival Standards (TS-EAS) of the Society of American Archivists (SAA) Standards Committee](https://www2.archivists.org/groups/technical-subcommittee-on-encoded-archival-standards-ts-eas) and the user community of the EAS Suite.
+
+## Sections
+{: .no_toc .text-delta }
 
 - TOC
 {:toc}
