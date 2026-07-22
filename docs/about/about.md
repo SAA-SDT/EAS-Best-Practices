@@ -13,11 +13,13 @@ The Encoded Archival Standards (EAS) Suite includes the three standards EAD, EAC
 
 The Encoded Archival Standards Best Practices Guide, as a companion to the EAS Tag Libraries, is a living document created collaboratively by members of the [Technical Subcommittee on Encoded Archival Standards (TS-EAS) of the Society of American Archivists (SAA) Standards Committee](https://www2.archivists.org/groups/technical-subcommittee-on-encoded-archival-standards-ts-eas) and the user community of the EAS Suite.
 
-## Sections
+## Jump to section
 {: .no_toc .text-delta }
 
-- TOC
+1. TOC
 {:toc}
+
+* * *
 
 ## Sub-Teams
 
