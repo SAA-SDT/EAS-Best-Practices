@@ -3,6 +3,7 @@ layout: default
 title: EAC-F
 parent: EAS Suite
 nav_order: 3
+has_children: true
 permalink: /docs/eas-suite/eac-f
 ---
 
