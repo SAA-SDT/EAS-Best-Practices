@@ -18,7 +18,7 @@ nav_order: 2
 
 ## Different forms of the same name
 **Schema:**
-EAC-CPF 2.0
+EAC-CPF 3.0.0
 
 **Context:**
 Encoding multiple names for different forms of the same name.
@@ -52,7 +52,7 @@ Use the element `<useDates>` within the element `<nameEntrySet>` to indicate the
 
 ## Qualify authorized and alternative names
 **Schema:**
-EAC-CPF 2.0
+EAC-CPF 3.0.0
 
 **Context:**
 Qualify a name entry as authorized or alternative name of an entity according to ISAAR(CPF) 5.1.2.
@@ -76,7 +76,7 @@ Use the attribute @status for the element `<nameEntry>` and select one of the gi
 
 ## Reflect parallel usage according to cataloging rules in North America
 **Schema:**
-EAC-CPF 2.0
+EAC-CPF 3.0.0
 
 **Context:**
 Qualify a set of name entries as parallel names according to cataloguing rules in North America.
@@ -107,7 +107,7 @@ Use the attribute `@localType` in `<nameEntry>` to specify the type of parallel 
 
 ## Qualify a name as preferred name for display purposes
 **Schema:**
-EAC-CPF 2.0
+EAC-CPF 3.0.0
 
 **Context:**
 Qualify a name entry as preferred name for display purposes.

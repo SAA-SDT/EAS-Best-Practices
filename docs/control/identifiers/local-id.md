@@ -8,7 +8,7 @@ nav_order: 2
 # Local identifiers
 
 **Schema:** 
-EAC-CPF 2.0
+EAC-CPF 3.0.0
 
 **Context:** 
 Adding a local identifier in an attribute when naming related entities, resources, or functions.

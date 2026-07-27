@@ -40,7 +40,7 @@ A generic type of agent encompassing individual human beings as well as any kind
 **Scope Note:**
 A process, machine or system that performs an activity, e.g. a database, style sheet, or other system. May have both mechanical and software components or may be exclusively software.
 
-- EAC-CPF Tag Library 2.0.1, [https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html#attr-agentType](https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html#attr-agentType)
+- EAC-CPF Tag Library 3.0.0, [https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html#attr-agentType](https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html#attr-agentType)
 - Records in Contexts Conceptual Model version 1.0, RiC-E13, [https://www.ica.org/app/uploads/2024/01/ric-cm-1.0_0.pdf](https://www.ica.org/app/uploads/2024/01/ric-cm-1.0_0.pdf)
 
 ## person

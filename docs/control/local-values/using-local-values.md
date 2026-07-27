@@ -8,7 +8,7 @@ nav_order: 2
 # Using a local value list to be used in the encoding
 
 **Schema:** 
-EAC-CPF 2.0
+EAC-CPF 3.0.0
 
 **Context:** 
 Referencing a locally defined convention or value lists in the encoding. 

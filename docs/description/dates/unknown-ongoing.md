@@ -7,7 +7,7 @@ nav_order: 2
 
 # Unknown or ongoing date ranges
 **Schema:**
-EAC-CPF 2.0
+EAC-CPF 3.0.0
 
 **Context:**
 Encoding unknown or ongoing dates. 

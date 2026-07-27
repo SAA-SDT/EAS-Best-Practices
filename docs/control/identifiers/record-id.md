@@ -8,7 +8,7 @@ nav_order: 1
 # Record identifiers
 
 **Schema:** 
-EAC-CPF 2.0
+EAC-CPF 3.0.0
 
 **Context:** 
 Unique identifier for the present EAS instance as globally unique identifier or as local identifier, but also unique identifier(s) for multiple records representing the same entity or resource in different systems. 
