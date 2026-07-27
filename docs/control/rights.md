@@ -5,7 +5,7 @@ parent: Control
 nav_order: 5
 ---
 
-# Access and use
+# Rights Declaration
 
 **Schema:**
 EAS 
