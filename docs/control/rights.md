@@ -18,7 +18,7 @@ For describing access for using archival material itself, including copyright an
 **Description:**
 Information about usage rights of the EAS instance or the finding aid belongs in the `<rightsDeclaration>` element. Do not use this element for information about usage rights for the archival material itself.
 
-`<rightsDeclaration>` is a child element of <control>. It is optional but recommended. Use it to indicate what license applies for using or re-using the content of the EAS instance. This may be a shared published license, such as Creative Commons, or a published license defined locally.
+`<rightsDeclaration>` is a child element of `<control>`. It is optional but recommended. Use it to indicate what license applies for using or re-using the content of the EAS instance. This may be a shared published license, such as Creative Commons, or a published license defined locally.
 
 The child elements of `<rightsDeclaration>` are `<reference>`, `<shortCode>` and `<descriptiveNote>`, in that order. `<reference>` is mandatory and the other two are optional. 
 
