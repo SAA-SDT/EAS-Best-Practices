@@ -13,11 +13,9 @@ EAD 4.0 (for `<accessConditions>` and `<useConditions>`).
 **Context:**
 Encoding information about availability conditions or usage rights of the described materials within `<archDesc>`, `<c>` or its numbered counterparts, or within `<formAvailable>`.
 
-For defining licenses and copyright information within the description itself, see [Rights Declaration](/docs/control/rights.md).
+For defining licenses and copyright information within the description itself, see [Rights Declaration](/EAS-Best-Practices/docs/control/rights.html).
 
-**Description:**
-
-***`<accessConditions>`***
+**Description for `<accessConditions>`:**
 
 Information about conditions or restrictions affecting the availability of archival material belongs in `<accessConditions>`. Avoid confusing or conflating the content of this element with `<useConditions>`.
 
@@ -37,7 +35,7 @@ Use `<dateRange>` to provide information about the time span during when the spe
 
 The other child elements available within `<accessConditions>` are `<abstract>` (for a brief summary of the relevant information), and `<p>` and `<formattingExtension>` for longer text. If more than one of these is used, the prescribed order is: `<abstract>`, `<dateRange>`, `<formattingExtension>` or `<p>`.
 
-***`<useConditions>`***
+**Description for `<useConditions>`:**
 
 Information about usage rights for archival material after access has been granted belongs in `<useConditions>`. Avoid confusing or conflating the content of this element with `<accessConditions>`.
 

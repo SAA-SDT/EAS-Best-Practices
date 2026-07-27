@@ -13,7 +13,7 @@ EAS
 **Context:**
 Encoding information about usage rights of the EAS instance within `<control>`. 
 
-For describing access for using archival material itself, including copyright and permissions for reuse of archival content, see [Access and Use](/docs/description/access-use.md).
+For describing access for using archival material itself, including copyright and permissions for reuse of archival content, see [Access and Use](/EAS-Best-Practices/docs/description/access-use.html).
 
 **Description:**
 Information about usage rights of the EAS instance or the finding aid belongs in the `<rightsDeclaration>` element. Do not use this element for information about usage rights for the archival material itself.
