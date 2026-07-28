@@ -19,7 +19,6 @@ For this example, we show how the function of records is stable while the record
 **Example**
 
 ```xml
-
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eas-schemas/refs/heads/release_2026_07/xml-schemas/eaf/eaf.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SAA-SDT/eas-schematron-validator/refs/heads/main/schematron/eaf.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
