@@ -36,7 +36,7 @@ The date range is ongoing.
 - [https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html](https://eac.staatsbibliothek-berlin.de/schema/v2/eac.html)
 
 ### Used in the following elements
-- `<todate>`
+- `<toDate>`
 - `<textualDate>`
 
 ## unknown
