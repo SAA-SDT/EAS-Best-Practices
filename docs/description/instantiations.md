@@ -3,7 +3,6 @@ layout: default
 title: Instantiations
 parent: Description
 nav_order: 4
-permalink: /docs/description/dates
 ---
 
 # Instantiations
@@ -33,7 +32,6 @@ Within `<formAvailable>`, a wide range of information can be provided about the 
 Use the attribute @formAvailableType within `<formAvailable>` to specify the type of form or instantiation being described. An [EAS value list](https://saa-sdt.github.io/EAS-Best-Practices/docs/control/value-lists) provides predefined terms for this attribute. Use “analogOriginal” for analogue originals such as paper files, charters, maps, and similar materials. For analogue reproductions - including microforms or paper copies - use “analogDerived.” The term “digitalOriginal” applies to born‑digital materials, whereas “digitalDerived” should be assigned to digitally derived instantiations, such as digitized versions of analogue originals or derivatives of born‑digital and digitized materials. Examples include a PDF generated from an email, a thumbnail or display surrogate of a TIFF image, or OCR‑extracted text from a digitized paper file. If a controlled vocabulary or list of terms is used, identify it within the control area.
 
 <img width="1280" height="720" alt="Image" src="https://github.com/SAA-SDT/EAS-Best-Practices/raw/main/images/599897030-ff726c82-04e5-4e33-848b-0293696ec763.png" />
-
 The record (blue) with reference number I. HA Rep. 219, Nr. 165 has 4 derived instantiations (yellow). One instantiation is called _Original_ and is the analog original record. Another instantiation is called _Mikrofilm_ with reference number _236/14_ and an analog form derived from the analog instantiation Original. A third instantiation is called _Master_ and has a TIFF file format. It is a digital instantiation, derived from the analog instantiation _Original_. The fourth instantiation is called `Derivat `and has a JPG file format. It is a digital instantiation, derived from the digital instantiation _Master_. 
 
 Blue lines indicate the relationship between the record and its instantiations, while yellow lines represent the relationships between the individual instantiations.
