@@ -45,62 +45,60 @@ The example encodes the information illustrated in the image and described in th
 ```
 <control audience="external" audienceEncoding="EASList" countryEncoding="iso3166-2" dateEncoding="iso8601" formAvailableTypeEncoding="EASList" languageEncoding="iso639-1" maintenanceStatus="revised" maintenanceStatusEncoding="EASList">
 [...]
- <localTypeDeclaration id="archDesc">
-            <reference href="https://deutsche-digitale-bibliothek.atlassian.net/wiki/spaces/DFD/pages/48105662/type"/>
-            <shortCode>EAD(DDB)</shortCode>
-        </localTypeDeclaration>
-        <localTypeDeclaration id="unitId">
-            <reference/>
-            <shortCode>apeEAD</shortCode>
-        </localTypeDeclaration>
+    <localTypeDeclaration id="archDesc">
+        <reference href="https://deutsche-digitale-bibliothek.atlassian.net/wiki/spaces/DFD/pages/48105662/type"/>
+        <shortCode>EAD(DDB)</shortCode>
+    </localTypeDeclaration>
+    <localTypeDeclaration id="unitId">
+        <reference/>
+        <shortCode>apeEAD</shortCode>
+    </localTypeDeclaration>
 </control>
 [...]
 <c level="file" id="Vz_6422c41f-6644-4bfd-bf5d-d84f6299552e">
-                    <identificationData>
-                        <unitId localType="call_number" localTypeDeclarationReference="unitId">I. HA Rep. 219, Nr. 165</unitId>
-                        <unitId localType="former_call_number" localTypeDeclarationReference="unitId">Pol.-Präs. Berlin Abt. I A</unitId>
-                        <unitDate>
-                            <dateRange>
-                                <fromDate standardDate="1920-01-01">1920</fromDate>
-                                <toDate standardDate="1923-12-31">1923</toDate>
-                            </dateRange>
-                        </unitDate>
-                        <unitTitle>Verordnungen des Reichspräsidenten zur Aufrechterhaltung der
-                            öffentlichen Ordnung</unitTitle>
-                        <genreForm>Akte/Amtsbuch</genreForm>
-                    </identificationData>
-                    <formsAvailable>
-                        <formAvailable formAvailableType="analogOriginal" audience="internal">
-                            <label>Original</label>
-                            <physicalDescription>
-                                <extent>
-                                    <quantity>357</quantity>
-                                    <unitOfMeasurement>Blatt</unitOfMeasurement>
-                                </extent>
-                            </physicalDescription>
-                        </formAvailable>
-                        <formAvailable formAvailableType="analogDerived" audience="external">
-                            <label>Mikrofilm</label>
-                            <formAvailableId>236/13</formAvailableId>
-                            <formAvailableId>236/14</formAvailableId>
-                            <role>Benutzungsmedium (analog)</role>
-                        </formAvailable>
-                        <formAvailable formAvailableType="digitalDerived" audience="external"
-                        valueURI="https://archive.spk-berlin.de/actaproweb/document/Vz_39164428-8560-4b12-8fab-9a46604fb6f2">
-                            <label>Derivat</label>
-                            <role>Benutzungsmedium (digital)</role>
-                            <physicalDescription>
-                                <physicalFacet>JPG</physicalFacet>
-                            </physicalDescription>
-                        </formAvailable>
-                    </formsAvailable>
-                    <accessConditions>
-                        <abstract>Vorlage nur als Mikrofilm/Mikrofiche/Digitalisat</abstract>
-                        <dateRange>
-                            <fromDate/>
-                            <toDate standardDate="2099-12-31">31.12.2099</toDate>
-                        </dateRange>
-                        <p>Bestand ist vollständig digitalisiert.</p>
-                    </accessConditions>
-                </c>
+    <identificationData>
+        <unitId localType="call_number" localTypeDeclarationReference="unitId">I. HA Rep. 219, Nr. 165</unitId>
+        <unitId localType="former_call_number" localTypeDeclarationReference="unitId">Pol.-Präs. Berlin Abt. I A</unitId>
+        <unitDate>
+            <dateRange>
+                <fromDate standardDate="1920-01-01">1920</fromDate>
+                <toDate standardDate="1923-12-31">1923</toDate>
+            </dateRange>
+        </unitDate>
+        <unitTitle>Verordnungen des Reichspräsidenten zur Aufrechterhaltung der öffentlichen Ordnung</unitTitle>
+        <genreForm>Akte/Amtsbuch</genreForm>
+    </identificationData>
+        <formsAvailable>
+            <formAvailable formAvailableType="analogOriginal" audience="internal">
+                <label>Original</label>
+                <physicalDescription>
+                    <extent>
+                        <quantity>357</quantity>
+                        <unitOfMeasurement>Blatt</unitOfMeasurement>
+                    </extent>
+                </physicalDescription>
+            </formAvailable>
+            <formAvailable formAvailableType="analogDerived" audience="external">
+                <label>Mikrofilm</label>
+                <formAvailableId>236/13</formAvailableId>
+                <formAvailableId>236/14</formAvailableId>
+                    <role>Benutzungsmedium (analog)</role>
+                </formAvailable>
+                <formAvailable formAvailableType="digitalDerived" audience="external" valueURI="https://archive.spk-berlin.de/actaproweb/document/Vz_39164428-8560-4b12-8fab-9a46604fb6f2">
+                    <label>Derivat</label>
+                    <role>Benutzungsmedium (digital)</role>
+                    <physicalDescription>
+                        <physicalFacet>JPG</physicalFacet>
+                    </physicalDescription>
+                </formAvailable>
+            </formsAvailable>
+            <accessConditions>
+                <abstract>Vorlage nur als Mikrofilm/Mikrofiche/Digitalisat</abstract>
+                <dateRange>
+                    <fromDate/>
+                    <toDate standardDate="2099-12-31">31.12.2099</toDate>
+                </dateRange>
+                    <p>Bestand ist vollständig digitalisiert.</p>
+            </accessConditions>
+</c>
 ```
