@@ -2,7 +2,7 @@
 layout: default
 title: Places and geographic features
 parent: Description
-nav_order: 5
+nav_order: 6
 has_children: true
 permalink: /docs/description/places
 ---
