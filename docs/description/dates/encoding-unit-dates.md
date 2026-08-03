@@ -26,7 +26,7 @@ Use `<fromDate>` for the beginning of a date range and use `<toDate>` for the en
 
 For machine-readable uncertain or approximate dates within `<fromDate>` and `<toDate>`, use `@standardDate` or `@notBefore` and `@notAfter` in the same manner as for `<date>`.
 
-If the date range is open-ended (for instance, if there are frequent accruals of later materials), either omit `<toDate>` or use `<toDate>` with the @status attribute with the value "ongoing".
+If the date range is open-ended (for instance, if there are frequent accruals of later materials), either omit `<toDate>` or use `<toDate>` with the `@status` attribute with the value "ongoing".
 
 Use `<dateSet>` to encode more complex dates in human- and machine-readable form. Such dates consist of two or more distinct single dates or date ranges. Only use `<dateSet>` where it is appropriate to encode complex date information in this degree of granularity. 
 
